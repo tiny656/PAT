@@ -10,7 +10,7 @@ vector<int> ee;
 vector<int> ans;
 int main()
 {
-  int n,i,e;
+	int n,i,e;
 	memset(f, 0, sizeof(f));
 	cin >> n;
 	for(i = 1; i <= n; i++)
@@ -45,5 +45,4 @@ int main()
 		cout << " " << ans[i];
 	}	
 	cout << endl;
-  return 0;
 }
