@@ -15,7 +15,7 @@ vector<int> adj[10005];
 int n;
 void Spfa(int start)
 {
-	int i;
+    int i;
     for (i = 0; i <= n; ++i)//³õÊ¼»¯
     {
         dis[i] = MAX;
@@ -26,7 +26,7 @@ void Spfa(int start)
     visited[start] = true;
     Q.push(start);
     while (!Q.empty())
-	{
+    {
         int temp = Q.front();
         Q.pop();
         for (i = 0; i < adj[temp].size(); ++i)
@@ -43,40 +43,40 @@ void Spfa(int start)
         }
         visited[temp] = false;            
     }
-	int ok = 1;    
+    int ok = 1;    
     double cnt = 0.0;
     for(i = 1; i <= n; i++)
     {
-    	if(dis[i] == MAX)	
-		{
-			ok = 0;
-			break;
-		} 
-		else
-		{
-			cnt += dis[i];
-		}
+        if(dis[i] == MAX)   
+        {
+            ok = 0;
+            break;
+        } 
+        else
+        {
+            cnt += dis[i];
+        }
    }
    printf("Cc(%d)=", start);
-   if(!ok)	printf("0.00\n");
-   else	printf("%.2lf\n", (double)(n-1)/cnt);
+   if(!ok)  printf("0.00\n");
+   else printf("%.2lf\n", (double)(n-1)/cnt);
 }
 
 int main()
 {
-	int m,i,a,b,ask;
-	scanf("%d %d", &n, &m);
-	for(i = 1; i <= m; i++)
-	{
-		scanf("%d %d", &a, &b);
-		adj[a].push_back(b);
-		adj[b].push_back(a);
-	}
-	scanf("%d", &ask);
-	for(i = 1; i <= ask; i++)
-	{
-		scanf("%d", &a);
-		Spfa(a);
-	}
-	return 0;
+    int m,i,a,b,ask;
+    scanf("%d %d", &n, &m);
+    for(i = 1; i <= m; i++)
+    {
+        scanf("%d %d", &a, &b);
+        adj[a].push_back(b);
+        adj[b].push_back(a);
+    }
+    scanf("%d", &ask);
+    for(i = 1; i <= ask; i++)
+    {
+        scanf("%d", &a);
+        Spfa(a);
+    }
+    return 0;
 }
