@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 /*
-ÍØÆËÅÅĞò 
+æ‹“æ‰‘æ’åº 
 */
 vector<int> AdjList[150];
 int in[150];
