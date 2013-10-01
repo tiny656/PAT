@@ -6,15 +6,15 @@
 #include <stack>
 using namespace std;
 /*
-Ç°×º±í´ïÊ½ÇóÖµ£¬Í¨¹ı·ûºÅÕ»ºÍÊı×ÖÕ»£¬´ÓÓÒÍù×ó½øĞĞÔËËã¡£ 
-1.Êı×ÖÈëÕ»
-2.·ûºÅÈëÕ»
-3.IF Êı×ÖÕ» >= 2 && ·ûºÅÕ» >= 1
-	µ¯³öÊı×ÖA,B ·ûºÅop
-	½øĞĞÔËËã C = A op B 
-	°ÑCÑ¹ÈëÊı×ÖÕ»
-   	Ö±µ½Êı×ÖÕ» ´óĞ¡ Îª  1
-4.×¢Òâ³ö´íÇé¿öµÄÅĞ¶Ï 
+å‰ç¼€è¡¨è¾¾å¼æ±‚å€¼ï¼Œé€šè¿‡ç¬¦å·æ ˆå’Œæ•°å­—æ ˆï¼Œä»å³å¾€å·¦è¿›è¡Œè¿ç®—ã€‚ 
+1.æ•°å­—å…¥æ ˆ
+2.ç¬¦å·å…¥æ ˆ
+3.IF æ•°å­—æ ˆ >= 2 && ç¬¦å·æ ˆ >= 1
+	å¼¹å‡ºæ•°å­—A,B ç¬¦å·op
+	è¿›è¡Œè¿ç®— C = A op B 
+	æŠŠCå‹å…¥æ•°å­—æ ˆ
+   	ç›´åˆ°æ•°å­—æ ˆ å¤§å° ä¸º  1
+4.æ³¨æ„å‡ºé”™æƒ…å†µçš„åˆ¤æ–­ 
 */
 stack<char> 	opStack;
 stack<double> 	valStack;
@@ -45,7 +45,7 @@ void Work(string str)
 			else				valStack.push(Convert(tmp));	
 			tmp = "";
 			while(valStack.size() >= 2 && opStack.size() >= 1)
-			{//½øĞĞÔËËã 
+			{//è¿›è¡Œè¿ç®— 
 				double a = valStack.top(); valStack.pop();
 				double b = valStack.top(); valStack.pop();
 				char op  = opStack.top();  opStack.pop();
@@ -81,7 +81,7 @@ void Work(string str)
 	else				valStack.push(Convert(tmp));	
 	tmp = "";
 	while(valStack.size() >= 2 && opStack.size() >= 1)
-	{//½øĞĞÔËËã 
+	{//è¿›è¡Œè¿ç®— 
 		double a = valStack.top(); valStack.pop();
 		double b = valStack.top(); valStack.pop();
 		char op  = opStack.top();  opStack.pop();

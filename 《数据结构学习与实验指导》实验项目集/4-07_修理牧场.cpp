@@ -5,7 +5,7 @@
 
 using namespace std;
 /*
-hoffmanÊ÷£¬È¨Öµ×îÓÅ¶þ²æÊ÷ £¬¹þ·òÂüÊ÷ 
+hoffmanæ ‘ï¼Œæƒå€¼æœ€ä¼˜äºŒå‰æ ‘ ï¼Œå“ˆå¤«æ›¼æ ‘ 
 */
 
 
