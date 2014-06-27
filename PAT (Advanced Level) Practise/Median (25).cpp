@@ -1,3 +1,4 @@
+//对于两个有序数组，归并排序的思想，找出第(n1+n2)/2的位置的数。O(m+n)的算法复杂度
 #include <cstdio>
 #include <vector>
 using namespace std;
