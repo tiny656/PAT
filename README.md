@@ -1,6 +1,11 @@
-PAT Online Judge Problems Codes on http://pat.zju.edu.cn/
+##PAT Online Judge(http://pat.zju.edu.cn/)
 
-博客中有部分解题思路，有空的话慢慢完善。 http://www.cnblogs.com/tiny656/archive/2013/01/11/2856191.html 
+PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tiny656/pat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+这个工程维护本人闲暇时间编写的所有Advance Level和Basic Level练习题的代码，其中的一些也参考过一些blog版本。
 
+大部分的代码使用`C++`实现，对于一些效率要求不高20分值的模拟题目，采用`Python`解答。
+
+绝大多数代码中开头的注释写有简单的解题思路，希望对大家能有所帮助，有关研究生生活的信息，也欢迎咨询^.^。
+
+在博客中有部分解题思路，有空的话，以后慢慢完善。(http://www.cnblogs.com/tiny656/archive/2013/01/11/2856191.html)
