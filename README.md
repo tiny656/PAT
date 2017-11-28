@@ -1,4 +1,4 @@
-## PAT Online Judge(http://pat.zju.edu.cn/)
+## PAT Online Judge(http://www.patest.cn/)
 
 PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
