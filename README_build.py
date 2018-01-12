@@ -98,7 +98,7 @@ class Item(object):
         if self.code & CodeType.PYTHON:
             codeUrl += '[`Python`](%s/%s_%s.py)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.JAVA:
-            codeUrl += '[`Java`](%s/%s_%s.java)\n' % (githubUrl, self.id, self.name.replace(' ', '%20'))
+            codeUrl += '[`Java`](%s/%s_%s.java)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         ret = u'| %s | [%s](%s) | %s |' % (self.id, self.name, problemUrl, codeUrl)
         return ret
 

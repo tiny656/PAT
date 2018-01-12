@@ -55,8 +55,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1021 | [Deepest Root (25)](https://www.patest.cn/contests/pat-a-practise/1021) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1021_Deepest%20Root%20(25).cpp) |
 | 1022 | [Digital Library (30)](https://www.patest.cn/contests/pat-a-practise/1022) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1022_Digital%20Library%20(30).cpp) |
 | 1023 | [Have Fun with Numbers (20)](https://www.patest.cn/contests/pat-a-practise/1023) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1023_Have%20Fun%20with%20Numbers%20(20).cpp) |
-| 1024 | [Palindromic Number (25)](https://www.patest.cn/contests/pat-a-practise/1024) | [`Java`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1024_Palindromic%20Number%20(25).java)
- |
+| 1024 | [Palindromic Number (25)](https://www.patest.cn/contests/pat-a-practise/1024) | [`Java`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1024_Palindromic%20Number%20(25).java) |
 | 1025 | [PAT Ranking (25)](https://www.patest.cn/contests/pat-a-practise/1025) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1025_PAT%20Ranking%20(25).cpp) |
 | 1026 | [Table Tennis (30)](https://www.patest.cn/contests/pat-a-practise/1026) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1026_Table%20Tennis%20(30).cpp) |
 | 1027 | [Colors in Mars (20)](https://www.patest.cn/contests/pat-a-practise/1027) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1027_Colors%20in%20Mars%20(20).cpp) |
@@ -191,8 +190,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1014 | [福尔摩斯的约会 (20)](https://www.patest.cn/contests/pat-b-practise/1014) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1014_福尔摩斯的约会%20(20).cpp) |
 | 1015 | [德才论 (25)](https://www.patest.cn/contests/pat-b-practise/1015) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1015_德才论%20(25).cpp) |
 | 1016 | [部分A+B (15)](https://www.patest.cn/contests/pat-b-practise/1016) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1016_部分A+B%20(15).cpp) |
-| 1017 | [A除以B (20)](https://www.patest.cn/contests/pat-b-practise/1017) | [`Java`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1017_A除以B%20(20).java)
- |
+| 1017 | [A除以B (20)](https://www.patest.cn/contests/pat-b-practise/1017) | [`Java`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1017_A除以B%20(20).java) |
 | 1018 | [锤子剪刀布 (20)](https://www.patest.cn/contests/pat-b-practise/1018) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1018_锤子剪刀布%20(20).cpp) |
 | 1019 | [数字黑洞 (20)](https://www.patest.cn/contests/pat-b-practise/1019) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1019_数字黑洞%20(20).cpp) |
 | 1020 | [月饼 (25)](https://www.patest.cn/contests/pat-b-practise/1020) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1020_月饼%20(25).cpp) |
