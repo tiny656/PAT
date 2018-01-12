@@ -10,17 +10,17 @@ import os
 # https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A%2BB%20Format%20(20).cpp
 codeRules = [
     {
-        'name': 'Top Level',
+        'name': 'Top-Level',
         'folderName': 'PAT (Top Level) Practise',
         'url': 'https://www.patest.cn/contests/pat-t-practise/',
     },
     {
-        'name': 'Advance Level',
+        'name': 'Advance-Level',
         'folderName': 'PAT (Advanced Level) Practise',
         'url': 'https://www.patest.cn/contests/pat-a-practise/',
     },
     {
-        'name': 'Basic Level',
+        'name': 'Basic-Level',
         'folderName': u'PAT (Basic Level) Practise （中文）',
         'url': 'https://www.patest.cn/contests/pat-b-practise/',
     }
@@ -39,9 +39,9 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 
 
 ## 目录
-- [Top Level](#TopLevel)
-- [Advance Level](#AdvanceLevel)
-- [Basic Level](#BasicLevel)
+- [Top-Level](#Top-Level)
+- [Advance-Level](#Advance-Level)
+- [Basic-Level](#Basic-Level)
 
 '''
 class CodeType:
@@ -73,8 +73,8 @@ class Table(object):
             self.items[item.id].code |= item.code
 
     def __str__(self):
-        tbl = '#<span id="%s"></span> %s\n' % (self.name.replace(' ', ''), self.name)
-        tbl += '|ID|Title|Code|\n'
+        tbl = '# %s\n' % self.name
+        tbl += '| ID | Title | Code |\n'
         tbl += '| :--: | :--: | :--: | :-- |\n'
         for id in sorted(self.items.iterkeys()):
             item = self.items[id]
@@ -99,7 +99,7 @@ class Item(object):
             codeUrl += '[`Python`](%s/%s_%s.py)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.JAVA:
             codeUrl += '[`Java`](%s/%s_%s.java)\n' % (githubUrl, self.id, self.name.replace(' ', '%20'))
-        ret = u'|%s|[%s](%s)|%s|' % (self.id, self.name, problemUrl, codeUrl)
+        ret = u'| %s | [%s](%s) | %s |' % (self.id, self.name, problemUrl, codeUrl)
         return ret
 
 
