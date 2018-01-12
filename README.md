@@ -15,7 +15,8 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 - [Advance Level](#AdvanceLevel)
 - [Basic Level](#BasicLevel)
 
-#<span id="TopLevel"></span> Top Level
+# Top Level
+
 |ID|Title|Code|
 | :--: | :--: | :--: | :-- |
 |1001|[Battle Over Cities - Hard Version (35)](https://www.patest.cn/contests/pat-t-practise/1001)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1001_Battle%20Over%20Cities%20-%20Hard%20Version%20(35).cpp)|
@@ -29,7 +30,8 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 |1013|[Image Segmentation (35)](https://www.patest.cn/contests/pat-t-practise/1013)|[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1013_Image%20Segmentation%20(35).py)|
 |1017|[The Best Peak Shape (35)](https://www.patest.cn/contests/pat-t-practise/1017)|[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1017_The%20Best%20Peak%20Shape%20(35).py)|
 |1018|[Subnumbers (35)](https://www.patest.cn/contests/pat-t-practise/1018)|[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1018_Subnumbers%20(35).py)|
-#<span id="AdvanceLevel"></span> Advance Level
+
+# Advance Level
 |ID|Title|Code|
 | :--: | :--: | :--: | :-- |
 |1001|[A+B Format (20)](https://www.patest.cn/contests/pat-a-practise/1001)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A+B%20Format%20(20).cpp)|
@@ -172,7 +174,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 |1137|[Final Grading (25)](https://www.patest.cn/contests/pat-a-practise/1137)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1137_Final%20Grading%20(25).cpp)|
 |1138|[Postorder Traversal (25)](https://www.patest.cn/contests/pat-a-practise/1138)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1138_Postorder%20Traversal%20(25).cpp)|
 |1139|[First Contact (30)](https://www.patest.cn/contests/pat-a-practise/1139)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1139_First%20Contact%20(30).cpp)|
-#<span id="BasicLevel"></span> Basic Level
+# Basic Level
 |ID|Title|Code|
 | :--: | :--: | :--: | :-- |
 |1001|[害死人不偿命的(3n+1)猜想 (15)](https://www.patest.cn/contests/pat-b-practise/1001)|[`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1001_害死人不偿命的(3n+1)猜想%20(15).cpp)|
