@@ -11,13 +11,13 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 
 
 ## 目录
-- [Top-Level](#Top-Level)
-- [Advance-Level](#Advance-Level)
-- [Basic-Level](#Basic-Level)
+- [Top-Level](#top-level)
+- [Advance-Level](#advance-level)
+- [Basic-Level](#basic-level)
 
 # Top-Level
 | ID | Title | Code |
-| :--: | :--: | :--: | :-- |
+| :--: | :--: | :--: |
 | 1001 | [Battle Over Cities - Hard Version (35)](https://www.patest.cn/contests/pat-t-practise/1001) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1001_Battle%20Over%20Cities%20-%20Hard%20Version%20(35).cpp) |
 | 1002 | [Business (35)](https://www.patest.cn/contests/pat-t-practise/1002) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1002_Business%20(35).cpp) |
 | 1003 | [Universal Travel Sites (35)](https://www.patest.cn/contests/pat-t-practise/1003) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1003_Universal%20Travel%20Sites%20(35).cpp) |
@@ -31,7 +31,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1018 | [Subnumbers (35)](https://www.patest.cn/contests/pat-t-practise/1018) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1018_Subnumbers%20(35).py) |
 # Advance-Level
 | ID | Title | Code |
-| :--: | :--: | :--: | :-- |
+| :--: | :--: | :--: |
 | 1001 | [A+B Format (20)](https://www.patest.cn/contests/pat-a-practise/1001) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A+B%20Format%20(20).cpp) |
 | 1002 | [A+B for Polynomials (25)](https://www.patest.cn/contests/pat-a-practise/1002) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1002_A+B%20for%20Polynomials%20(25).cpp) |
 | 1003 | [Emergency (25)](https://www.patest.cn/contests/pat-a-practise/1003) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1003_Emergency%20(25).cpp) |
@@ -174,7 +174,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1139 | [First Contact (30)](https://www.patest.cn/contests/pat-a-practise/1139) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1139_First%20Contact%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
-| :--: | :--: | :--: | :-- |
+| :--: | :--: | :--: |
 | 1001 | [害死人不偿命的(3n+1)猜想 (15)](https://www.patest.cn/contests/pat-b-practise/1001) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1001_害死人不偿命的(3n+1)猜想%20(15).cpp) |
 | 1002 | [写出这个数 (20)](https://www.patest.cn/contests/pat-b-practise/1002) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1002_写出这个数%20(20).cpp) |
 | 1003 | [我要通过！(20)](https://www.patest.cn/contests/pat-b-practise/1003) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1003_我要通过！(20).cpp) |

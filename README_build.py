@@ -39,9 +39,9 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 
 
 ## 目录
-- [Top-Level](#Top-Level)
-- [Advance-Level](#Advance-Level)
-- [Basic-Level](#Basic-Level)
+- [Top-Level](#top-level)
+- [Advance-Level](#advance-level)
+- [Basic-Level](#basic-level)
 
 '''
 class CodeType:
@@ -75,7 +75,7 @@ class Table(object):
     def __str__(self):
         tbl = '# %s\n' % self.name
         tbl += '| ID | Title | Code |\n'
-        tbl += '| :--: | :--: | :--: | :-- |\n'
+        tbl += '| :--: | :--: | :--: |\n'
         for id in sorted(self.items.iterkeys()):
             item = self.items[id]
             tbl += str(item) + '\n'
