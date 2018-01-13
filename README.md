@@ -1,5 +1,5 @@
 
-## PAT Online Judge(http://www.patest.cn/) [![Build Status](https://travis-ci.org/tiny656/PAT.svg?branch=master)](https://travis-ci.org/tiny656/PAT)
+## PAT Online Judge(http://www.patest.cn/)
 
 PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
