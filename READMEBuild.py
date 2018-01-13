@@ -27,7 +27,7 @@ codeRules = [
 ]
 
 preContent = u'''
-## PAT Online Judge(http://www.patest.cn/)
+## PAT Online Judge(http://www.patest.cn/) [![Build Status](https://travis-ci.org/tiny656/PAT.svg?branch=master)](https://travis-ci.org/tiny656/PAT)
 
 PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
@@ -48,7 +48,6 @@ class CodeType:
     CPLUSPLUS = 1
     PYTHON = 2
     JAVA = 4
-
 
     @staticmethod
     def getCodeType(ext):
@@ -103,13 +102,12 @@ class Item(object):
         return ret
 
 
-def build():
+def buildREADME():
     tables = []
     for codeRule in codeRules:
         name = codeRule.get('name')
         folderName = codeRule.get('folderName')
         baseUrl = codeRule.get('url')
-        tag = codeRule.get('tag')
         table = Table(folderName, name, baseUrl)
         for path, dirs, files in os.walk(folderName):
             for filename in files:
@@ -119,16 +117,10 @@ def build():
                 table.addItem(item)
         tables.append(table)
 
-
     with open('README.md', 'w') as f:
         f.write(preContent)
         for t in tables:
             f.write(str(t))
 
 if __name__ == '__main__':
-    build()
-
-
-
-
-
+    buildREADME()
