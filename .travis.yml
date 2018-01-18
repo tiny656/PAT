@@ -1,6 +1,7 @@
 language: python   #设置语言
 before_script:
   - git clone https://github.com/tiny656/PAT.git
+  - git remote set-url origin https://${GH_TOKEN}@${GH_REF}
 script:
   - python READMEBuild.py   #清除
 after_script:
@@ -8,7 +9,7 @@ after_script:
   - git config user.email "tiny656@foxmail.com"   #修改成自己的GitHub邮箱
   - git add .
   - git commit -m "[skip ci]update README.md by Travis-CI"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master #GH_token就是在travis中设置的token
+  - git push origin master --force --quiet
 env:
   global:
   - GH_REF: github.com/tiny656/PAT.git
