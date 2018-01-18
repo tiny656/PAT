@@ -5,6 +5,7 @@ before_script:
 script:
   - python READMEBuild.py   #清除
 after_script:
+  - cd PAT
   - git config user.name "tiny656"   #修改成自己的github用户名
   - git config user.email "tiny656@foxmail.com"   #修改成自己的GitHub邮箱
   - git add .
