@@ -6,10 +6,11 @@ before_script:
   - git clone https://github.com/tiny656/PAT.git
 
 script:
-  - python READMEBuild.py
+  - echo 'script'
 
 after_script:
   - cd PAT
+  - python READMEBuild.py
   - git config user.name "tiny656"   #修改成自己的github用户名
   - git config user.email "tiny656@foxmail.com"   #修改成自己的GitHub邮箱
   - git add .
