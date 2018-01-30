@@ -28,6 +28,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1010 | [Lehmer Code (35)](https://www.patest.cn/contests/pat-t-practise/1010) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1010_Lehmer%20Code%20(35).cpp) |
 | 1012 | [Greedy Snake (35)](https://www.patest.cn/contests/pat-t-practise/1012) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1012_Greedy%20Snake%20(35).cpp) |
 | 1013 | [Image Segmentation (35)](https://www.patest.cn/contests/pat-t-practise/1013) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1013_Image%20Segmentation%20(35).py) |
+| 1015 | [Letter-moving Game (35)](https://www.patest.cn/contests/pat-t-practise/1015) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1015_Letter-moving%20Game%20(35).cpp) |
 | 1017 | [The Best Peak Shape (35)](https://www.patest.cn/contests/pat-t-practise/1017) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1017_The%20Best%20Peak%20Shape%20(35).py) |
 | 1018 | [Subnumbers (35)](https://www.patest.cn/contests/pat-t-practise/1018) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1018_Subnumbers%20(35).py) |
 # Advance-Level
