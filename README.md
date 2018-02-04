@@ -24,11 +24,14 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1004 | [To Buy or Not to Buy - Hard Version (35)](https://www.patest.cn/contests/pat-t-practise/1004) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1004_To%20Buy%20or%20Not%20to%20Buy%20-%20Hard%20Version%20(35).cpp) |
 | 1005 | [Programming Pattern (35)](https://www.patest.cn/contests/pat-t-practise/1005) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1005_Programming%20Pattern%20(35).cpp) |
 | 1006 | [Tree Traversals - Hard Version (35)](https://www.patest.cn/contests/pat-t-practise/1006) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1006_Tree%20Traversals%20-%20Hard%20Version%20(35).py) |
+| 1008 | [Airline Routes (35)](https://www.patest.cn/contests/pat-t-practise/1008) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1008_Airline%20Routes%20(35).cpp) |
 | 1009 | [Triple Inversions (35)](https://www.patest.cn/contests/pat-t-practise/1009) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1009_Triple%20Inversions%20(35).cpp) |
 | 1010 | [Lehmer Code (35)](https://www.patest.cn/contests/pat-t-practise/1010) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1010_Lehmer%20Code%20(35).cpp) |
 | 1012 | [Greedy Snake (35)](https://www.patest.cn/contests/pat-t-practise/1012) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1012_Greedy%20Snake%20(35).cpp) |
 | 1013 | [Image Segmentation (35)](https://www.patest.cn/contests/pat-t-practise/1013) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1013_Image%20Segmentation%20(35).py) |
+| 1014 | [Circles of Friends (35)](https://www.patest.cn/contests/pat-t-practise/1014) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1014_Circles%20of%20Friends%20(35).cpp) |
 | 1015 | [Letter-moving Game (35)](https://www.patest.cn/contests/pat-t-practise/1015) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1015_Letter-moving%20Game%20(35).cpp) |
+| 1016 | [Uniqueness of MST (35)](https://www.patest.cn/contests/pat-t-practise/1016) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1016_Uniqueness%20of%20MST%20(35).cpp) |
 | 1017 | [The Best Peak Shape (35)](https://www.patest.cn/contests/pat-t-practise/1017) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1017_The%20Best%20Peak%20Shape%20(35).py) |
 | 1018 | [Subnumbers (35)](https://www.patest.cn/contests/pat-t-practise/1018) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1018_Subnumbers%20(35).py) |
 # Advance-Level
