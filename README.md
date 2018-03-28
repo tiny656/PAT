@@ -248,7 +248,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1066 | [图像过滤(15)](https://www.patest.cn/contests/pat-b-practise/1066) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1066_图像过滤(15).py) |
 | 1067 | [试密码(20)](https://www.patest.cn/contests/pat-b-practise/1067) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1067_试密码(20).py) |
 | 1068 | [万绿丛中一点红(20)](https://www.patest.cn/contests/pat-b-practise/1068) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1068_万绿丛中一点红(20).cpp) |
-| 1069 | [博转发抽奖(20)](https://www.patest.cn/contests/pat-b-practise/1069) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1069_博转发抽奖(20).py) |
+| 1069 | [微博转发抽奖(20)](https://www.patest.cn/contests/pat-b-practise/1069) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1069_微博转发抽奖(20).py) |
 | 1070 | [结绳(25)](https://www.patest.cn/contests/pat-b-practise/1070) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1070_结绳(25).py) |
 | 1071 | [小赌怡情(15)](https://www.patest.cn/contests/pat-b-practise/1071) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1071_小赌怡情(15).py) |
 | 1072 | [开学寄语(20)](https://www.patest.cn/contests/pat-b-practise/1072) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1072_开学寄语(20).py) |
@@ -264,3 +264,4 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1082 | [射击比赛 (20)](https://www.patest.cn/contests/pat-b-practise/1082) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1082_射击比赛%20(20).cpp) |
 | 1083 | [是否存在相等的差 (20)](https://www.patest.cn/contests/pat-b-practise/1083) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1083_是否存在相等的差%20(20).cpp) |
 | 1084 | [外观数列 (20)](https://www.patest.cn/contests/pat-b-practise/1084) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1084_外观数列%20(20).cpp) |
+| 1085 | [PAT单位排行 (25)](https://www.patest.cn/contests/pat-b-practise/1085) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1085_PAT单位排行%20(25).cpp) |
