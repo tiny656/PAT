@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-// basic topological implemention
+// basic topological implement
 // maintain in degree value, check in degree is 0 for vertex in order
 class DirectedGraph {
 public:
