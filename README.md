@@ -182,6 +182,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1142 | [Maximal Clique (25)](https://www.patest.cn/contests/pat-a-practise/1142) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1142_Maximal%20Clique%20(25).cpp) |
 | 1144 | [The Missing Number (20)](https://www.patest.cn/contests/pat-a-practise/1144) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1144_The%20Missing%20Number%20(20).cpp) |
 | 1145 | [Hashing - Average Search Time (25)](https://www.patest.cn/contests/pat-a-practise/1145) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1145_Hashing%20-%20Average%20Search%20Time%20(25).cpp) |
+| 1146 | [Topological Order (25)](https://www.patest.cn/contests/pat-a-practise/1146) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1146_Topological%20Order%20(25).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
