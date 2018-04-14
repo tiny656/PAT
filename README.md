@@ -177,6 +177,11 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1137 | [Final Grading (25)](https://www.patest.cn/contests/pat-a-practise/1137) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1137_Final%20Grading%20(25).cpp) |
 | 1138 | [Postorder Traversal (25)](https://www.patest.cn/contests/pat-a-practise/1138) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1138_Postorder%20Traversal%20(25).cpp) |
 | 1139 | [First Contact (30)](https://www.patest.cn/contests/pat-a-practise/1139) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1139_First%20Contact%20(30).cpp) |
+| 1140 | [Look-and-say Sequence (20)](https://www.patest.cn/contests/pat-a-practise/1140) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1140_Look-and-say%20Sequence%20(20).cpp) |
+| 1141 | [PAT Ranking of Institutions (25)](https://www.patest.cn/contests/pat-a-practise/1141) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1141_PAT%20Ranking%20of%20Institutions%20(25).cpp) |
+| 1142 | [Maximal Clique (25)](https://www.patest.cn/contests/pat-a-practise/1142) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1142_Maximal%20Clique%20(25).cpp) |
+| 1144 | [The Missing Number (20)](https://www.patest.cn/contests/pat-a-practise/1144) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1144_The%20Missing%20Number%20(20).cpp) |
+| 1145 | [Hashing - Average Search Time (25)](https://www.patest.cn/contests/pat-a-practise/1145) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1145_Hashing%20-%20Average%20Search%20Time%20(25).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
