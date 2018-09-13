@@ -146,7 +146,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1106 | Lowest Price in Supply Chain (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1106_Lowest%20Price%20in%20Supply%20Chain%20(25).cpp) |
 | 1107 | Social Clusters (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1107_Social%20Clusters%20(30).cpp) |
 | 1108 | Find Average (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1108_Find%20Average%20(20).cpp) |
-| 1109 | .Group Photo (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1109_.Group%20Photo%20(25).cpp) |
+| 1109 | Group Photo (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1109_Group%20Photo%20(25).cpp) |
 | 1110 | Complete Binary Tree (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1110_Complete%20Binary%20Tree%20(25).cpp) |
 | 1111 | Online Map (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1111_Online%20Map%20(30).cpp) |
 | 1112 | Stucked Keyboard (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1112_Stucked%20Keyboard%20(20).cpp) |
