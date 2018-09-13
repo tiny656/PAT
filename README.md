@@ -185,6 +185,10 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1145 | Hashing - Average Search Time (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1145_Hashing%20-%20Average%20Search%20Time%20(25).cpp) |
 | 1146 | Topological Order (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1146_Topological%20Order%20(25).cpp) |
 | 1147 | Heaps (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1147_Heaps%20(30).cpp) |
+| 1148 | Werewolf - Simple Version (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1148_Werewolf%20-%20Simple%20Version%20(20).cpp) |
+| 1149 | Dangerous Goods Packaging (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1149_Dangerous%20Goods%20Packaging%20(25).cpp) |
+| 1150 | Travelling Salesman Problem (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1150_Travelling%20Salesman%20Problem%20(25).cpp) |
+| 1151 | LCA in a Binary Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1151_LCA%20in%20a%20Binary%20Tree%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -273,3 +277,8 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1083 | 是否存在相等的差 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1083_是否存在相等的差%20(20).cpp) |
 | 1084 | 外观数列 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1084_外观数列%20(20).cpp) |
 | 1085 | PAT单位排行 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1085_PAT单位排行%20(25).cpp) |
+| 1086 | 就不告诉你 (15) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1086_就不告诉你%20(15).cpp) |
+| 1087 | 有多少不同的值 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1087_有多少不同的值%20(20).cpp) |
+| 1088 | 三人行 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1088_三人行%20(20).cpp) |
+| 1089 | 狼人杀-简单版 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1089_狼人杀-简单版%20(20).cpp) |
+| 1090 | 危险品装箱 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1090_危险品装箱%20(25).cpp) |
