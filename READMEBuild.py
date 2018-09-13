@@ -3,31 +3,28 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 import os
-# https://www.patest.cn/contests/pat-t-practise/
-# https://www.patest.cn/contests/pat-b-practise/1001
-# https://www.patest.cn/contests/pat-a-practise
 
 # https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A%2BB%20Format%20(20).cpp
 codeRules = [
     {
         'name': 'Top-Level',
         'folderName': 'PAT (Top Level) Practise',
-        'url': 'https://www.patest.cn/contests/pat-t-practise/',
+        'url': '',
     },
     {
         'name': 'Advance-Level',
         'folderName': 'PAT (Advanced Level) Practise',
-        'url': 'https://www.patest.cn/contests/pat-a-practise/',
+        'url': '',
     },
     {
         'name': 'Basic-Level',
         'folderName': u'PAT (Basic Level) Practise （中文）',
-        'url': 'https://www.patest.cn/contests/pat-b-practise/',
+        'url': '',
     }
 ]
 
 preContent = u'''
-## PAT Online Judge(http://www.patest.cn/) [![Build Status](https://travis-ci.org/tiny656/PAT.svg?branch=master)](https://travis-ci.org/tiny656/PAT)
+## PAT Online Judge(https://pintia.cn/problem-sets) [![Build Status](https://travis-ci.org/tiny656/PAT.svg?branch=master)](https://travis-ci.org/tiny656/PAT)
 
 PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
@@ -98,7 +95,7 @@ class Item(object):
             codeUrl += '[`Python`](%s/%s_%s.py)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.JAVA:
             codeUrl += '[`Java`](%s/%s_%s.java)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
-        ret = u'| %s | [%s](%s) | %s |' % (self.id, self.name, problemUrl, codeUrl)
+        ret = u'| %s | %s | %s |' % (self.id, self.name, codeUrl)
         return ret
 
 
