@@ -14,7 +14,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 - [Top-Level](#top-level)
 - [Advance-Level](#advance-level)
 - [Basic-Level](#basic-level)
-- [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题)
+- [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
 
 # Top-Level
 | ID | Title | Code |
@@ -293,7 +293,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1093 | 字符串A+B (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1093_字符串A+B%20(20).cpp) |
 | 1094 | 谷歌的招聘 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1094_谷歌的招聘%20(20).cpp) |
 | 1095 | 解码PAT准考证 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1095_解码PAT准考证%20(25).cpp) |
-# 中国大学mooc-陈越何钦铭-数据结构-起步能力自测题
+# 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
 | 自测-1 | 打印沙漏 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题/自测-1_打印沙漏%20(20).py) |
