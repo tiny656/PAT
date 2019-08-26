@@ -20,6 +20,11 @@ codeRules = [
         'name': 'Basic-Level',
         'folderName': u'PAT (Basic Level) Practise （中文）',
         'url': '',
+    },
+    {
+        'name': u'中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题',
+        'folderName': u'中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题',
+        'url': '',
     }
 ]
 
@@ -39,6 +44,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 - [Top-Level](#top-level)
 - [Advance-Level](#advance-level)
 - [Basic-Level](#basic-level)
+- [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题)
 
 '''
 class CodeType:
