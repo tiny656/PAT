@@ -75,7 +75,7 @@ class Table(object):
         tbl = '# %s\n' % self.name
         tbl += '| ID | Title | Code |\n'
         tbl += '| :--: | :--: | :--: |\n'
-        for id in sorted(self.items.iterkeys()):
+        for id in sorted(self.items.keys()):
             item = self.items[id]
             tbl += str(item) + '\n'
         return tbl
