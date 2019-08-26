@@ -190,6 +190,10 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1149 | Dangerous Goods Packaging (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1149_Dangerous%20Goods%20Packaging%20(25).cpp) |
 | 1150 | Travelling Salesman Problem (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1150_Travelling%20Salesman%20Problem%20(25).cpp) |
 | 1151 | LCA in a Binary Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1151_LCA%20in%20a%20Binary%20Tree%20(30).cpp) |
+| 1152 | Google Recruitment (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1152_Google%20Recruitment%20(20).cpp) |
+| 1153 | Decode Registration Card of PAT (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1153_Decode%20Registration%20Card%20of%20PAT%20(25).cpp) |
+| 1154 | Vertex Coloring (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1154_Vertex%20Coloring%20(25).cpp) |
+| 1155 | Heap Paths (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1155_Heap%20Paths%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -283,3 +287,8 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 1088 | 三人行 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1088_三人行%20(20).cpp) |
 | 1089 | 狼人杀-简单版 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1089_狼人杀-简单版%20(20).cpp) |
 | 1090 | 危险品装箱 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1090_危险品装箱%20(25).cpp) |
+| 1091 | N-自守数 (15) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1091_N-自守数%20(15).cpp) |
+| 1092 | 最好吃的月饼 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1092_最好吃的月饼%20(20).cpp) |
+| 1093 | 字符串A+B (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1093_字符串A+B%20(20).cpp) |
+| 1094 | 谷歌的招聘 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1094_谷歌的招聘%20(20).cpp) |
+| 1095 | 解码PAT准考证 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1095_解码PAT准考证%20(25).cpp) |
