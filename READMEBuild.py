@@ -1,8 +1,5 @@
 #coding: utf-8
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
-import os
+import sys, os
 
 # https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A%2BB%20Format%20(20).cpp
 codeRules = [
