@@ -47,13 +47,14 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 - [Advance-Level](#advance-level)
 - [Basic-Level](#basic-level)
 - [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
+- [基础编程题目集](#基础编程题目集)
 
 '''
 class CodeType:
     CPLUSPLUS = 1
     PYTHON = 2
     JAVA = 4
-    C = 5
+    C = 8
 
     @staticmethod
     def getCodeType(ext):
