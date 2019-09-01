@@ -22,6 +22,11 @@ codeRules = [
         'name': u'中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题',
         'folderName': u'中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题',
         'url': '',
+    },
+    {
+        'name': u'基础编程题目集',
+        'folderName': u'基础编程题目集',
+        'url': '',
     }
 ]
 
@@ -48,6 +53,7 @@ class CodeType:
     CPLUSPLUS = 1
     PYTHON = 2
     JAVA = 4
+    C = 5
 
     @staticmethod
     def getCodeType(ext):
@@ -57,6 +63,8 @@ class CodeType:
             return CodeType.PYTHON
         elif ext == '.java':
             return CodeType.JAVA
+        elif ext == '.c':
+            return CodeType.C
 
 class Table(object):
     def __init__(self, folderName, name, url):
@@ -98,6 +106,8 @@ class Item(object):
             codeUrl += '[`Python`](%s/%s_%s.py)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.JAVA:
             codeUrl += '[`Java`](%s/%s_%s.java)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
+        if self.code & CodeType.C:
+            codeUrl += '[`C`](%s/%s_%s.c)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         ret = u'| %s | %s | %s |' % (self.id, self.name, codeUrl)
         return ret
 
