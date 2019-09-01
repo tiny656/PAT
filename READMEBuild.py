@@ -122,7 +122,7 @@ def buildREADME():
         table = Table(folderName, name, baseUrl)
         for path, dirs, files in os.walk(folderName):
             for filename in files:
-				id, problem = filename.split('_')
+                id, problem = filename.split('_')
                 problem, ext = os.path.splitext(problem)
                 item = Item(id, problem, CodeType.getCodeType(ext), table)
                 table.addItem(item)
