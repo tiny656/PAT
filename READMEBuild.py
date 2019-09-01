@@ -122,8 +122,8 @@ def buildREADME():
         table = Table(folderName, name, baseUrl)
         for path, dirs, files in os.walk(folderName):
             for filename in files:
-                id = filename[:4]
-                problem, ext = os.path.splitext(filename[5:])
+				id, problem = filename.split('_')
+                problem, ext = os.path.splitext(problem)
                 item = Item(id, problem, CodeType.getCodeType(ext), table)
                 table.addItem(item)
         tables.append(table)
