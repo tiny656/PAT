@@ -28,7 +28,7 @@
 #include <cassert>
 using namespace std;
 
-/*¼ÆËãn³öÏÖkµÄ¸öÊı(1<=k<=9)*/
+/*è®¡ç®—nå‡ºç°kçš„ä¸ªæ•°(1<=k<=9)*/
 int cal1to9(int n,int k)
 {
 	int fact = 1,res = 0;

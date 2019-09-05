@@ -1,6 +1,6 @@
-//µÚÆß×éÑùÀý³¬Ê±
-//1¡¢ÐèÒª¶þ·Ö´ð°¸....
-//2¡¢½á¹ûÓÃlong long
+//ç¬¬ä¸ƒç»„æ ·ä¾‹è¶…æ—¶
+//1ã€éœ€è¦äºŒåˆ†ç­”æ¡ˆ....
+//2ã€ç»“æžœç”¨long long
 
 
 #include <iostream>

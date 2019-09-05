@@ -28,7 +28,7 @@ int main()
     int n,m,i,j,k;
     string ID,tmpID;
 
-    map<string, node*> hash;//hash各个结点
+    map<string, node*> hash;//hash鍚勪釜缁撶偣
 
 
     while(cin >> n >> m)

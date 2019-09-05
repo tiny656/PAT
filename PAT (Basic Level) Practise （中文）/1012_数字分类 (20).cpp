@@ -1,6 +1,6 @@
 /**********************************
  * Author: Tiny656
- * Created Date: 2013Äê8ÔÂ20ÈÕ
+ * Created Date: 2013å¹´8æœˆ20æ—¥
  **********************************
  */
 #define _CRT_SECURE_NO_DEPRECATE

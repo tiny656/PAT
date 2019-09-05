@@ -1,6 +1,6 @@
 /**********************************
  * Author: Tiny656
- * Created Date: 2013Äê8ÔÂ20ÈÕ
+ * Created Date: 2013å¹´8æœˆ20æ—¥
  **********************************
  */
 #define _CRT_SECURE_NO_DEPRECATE
@@ -92,7 +92,7 @@ static inline bool get(int &v)
 const int MAXN = 500000;
 bool is_prime[500001];
 int prime[500001];
-/*É¸·¨ÇóËØÊý*/
+/*ç­›æ³•æ±‚ç´ æ•°*/
 int len = 0;
 void init()
 {

@@ -4,7 +4,7 @@ using namespace std;
 
 bool is_prime[500001];
 int prime[500001];
-/*É¸·¨*/
+/*ç­›æ³•*/
 int n, len = 0;
 void init()
 {

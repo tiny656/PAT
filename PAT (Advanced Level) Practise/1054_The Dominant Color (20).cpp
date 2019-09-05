@@ -19,7 +19,7 @@ static inline bool get(int &v)
 	return 1 ;
 }
 /*
-用map来计数，超过m*n/2就是答案
+鐢╩ap鏉ヨ鏁帮紝瓒呰繃m*n/2灏辨槸绛旀
 */
 long long matrix[805][605];
 map<long long,int> cnt;

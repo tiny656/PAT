@@ -82,7 +82,7 @@ static inline bool get(int &v)
 }
 /*
 AVLTree
-ËÄÖÖ²Ù×÷
+å››ç§æ“ä½œ
 */
 class TreeNode
 {
@@ -100,8 +100,8 @@ class AVLTree
 		
 		TreeNode *root;
 		
-		TreeNode* SingRotateLeft(TreeNode *&k2);//LLÇé¿öÏÂÐý×ª
-		TreeNode* SingRotateRight(TreeNode *&k2);//RRÇé¿öÏÂÐý×ª
+		TreeNode* SingRotateLeft(TreeNode *&k2);//LLæƒ…å†µä¸‹æ—‹è½¬
+		TreeNode* SingRotateRight(TreeNode *&k2);//RRæƒ…å†µä¸‹æ—‹è½¬
 		TreeNode* DoubleRotateLR(TreeNode *&k3);//LR
 		TreeNode* DoubleRotateRL(TreeNode *&k3);//RL
 		void InsertNode(TreeNode *&node, int val);
@@ -183,7 +183,7 @@ void AVLTree::InsertNode(TreeNode *&node, int val)
 		return ;
 	}
 
-	if (node->val > val)//²åÈëµ½×ó×ÓÊ÷
+	if (node->val > val)//æ’å…¥åˆ°å·¦å­æ ‘
 	{
 		InsertNode(node->lson, val);
 		if (2 == Height(node->lson) - Height(node->rson))
@@ -192,7 +192,7 @@ void AVLTree::InsertNode(TreeNode *&node, int val)
 			else						node = DoubleRotateLR(node);
 		}
 	}
-	else if (node->val < val)//²åÈëµ½ÓÒ×ÓÊ÷
+	else if (node->val < val)//æ’å…¥åˆ°å³å­æ ‘
 	{
 		InsertNode(node->rson, val);
 		if (2 == Height(node->rson) - Height(node->lson))

@@ -1,5 +1,5 @@
-//Ë¼Â·ÊÇÌ°ĞÄ
-//´úÂë¿´µÄÊÇhttp://blog.csdn.net/Hackbuteer1/article/details/7402127
+//æ€è·¯æ˜¯è´ªå¿ƒ
+//ä»£ç çœ‹çš„æ˜¯http://blog.csdn.net/Hackbuteer1/article/details/7402127
 #include <iostream>
 #include <cstdio>
 #include <vector>
@@ -27,7 +27,7 @@ int main()
     elem.push_back(make_pair(0,dist));
 
     if(elem[0].second > 0)
-    {//Èç¹û³õÊ¼Î»ÖÃÎŞ·¨¼ÓÓÍ
+    {//å¦‚æœåˆå§‹ä½ç½®æ— æ³•åŠ æ²¹
         printf("The maximum travel distance = 0.00\n");
         return 0;
     }
@@ -37,14 +37,14 @@ int main()
     for(i = 0; i < n;)
     {
         if(elem[i+1].second - elem[i].second > capacity*avg)
-        {//Èç¹ûÆû³µ¼ÓÂúÓÍÒ²ÎŞ·¨×ßµ½ÏÂÒ»¸ö¼ÓÓÍµã
+        {//å¦‚æœæ±½è½¦åŠ æ»¡æ²¹ä¹Ÿæ— æ³•èµ°åˆ°ä¸‹ä¸€ä¸ªåŠ æ²¹ç‚¹
             printf("The maximum travel distance = %.2lf\n", capacity*avg+elem[i].second);
             ok = 0;
             break;
         }
         else
         {
-            //ÕÒ³öÄÜµ½´ïµÄ¼ÓÓÍÕ¾£¬ÓÍ¼Û×î±ãÒËµÄ
+            //æ‰¾å‡ºèƒ½åˆ°è¾¾çš„åŠ æ²¹ç«™ï¼Œæ²¹ä»·æœ€ä¾¿å®œçš„
             index = i;
             minPrice = elem[i].first;
             for(j = i + 1 ; elem[j].second - elem[i].second <= cur*avg && j <= n ; j++)
@@ -61,7 +61,7 @@ int main()
                 i = index;
                 continue;
             }
-            //ÕÒ×î½üµÄÒ»¸öÓÍ¼Û±ãÒËµÄ£¬¼ÓÒ»Ğ©ÓÍÔÙÅÜµ½
+            //æ‰¾æœ€è¿‘çš„ä¸€ä¸ªæ²¹ä»·ä¾¿å®œçš„ï¼ŒåŠ ä¸€äº›æ²¹å†è·‘åˆ°
             index = i;
             for(j = i + 1; elem[j].second - elem[i].second <= capacity*avg && j <= n; j++)
             {
@@ -79,7 +79,7 @@ int main()
                 continue;
             }
 
-            //ÕÒ²»µ½±Èµ±Ç°ÓÍÕ¾µÄ¼Û¸ñ»¹±ãÒËµÄÓÍÕ¾µÄÊ±ºò,ÔÚµ±Ç°ÓÍÕ¾ĞèÒª¼ÓÂúÓÍ£¬ÅÜµ½ÄÜÅÜµ½µÄËùÓĞÕ¾ÀïÓÍ¼Û×îĞ¡µÄÄÇ¸öÓÍÕ¾
+            //æ‰¾ä¸åˆ°æ¯”å½“å‰æ²¹ç«™çš„ä»·æ ¼è¿˜ä¾¿å®œçš„æ²¹ç«™çš„æ—¶å€™,åœ¨å½“å‰æ²¹ç«™éœ€è¦åŠ æ»¡æ²¹ï¼Œè·‘åˆ°èƒ½è·‘åˆ°çš„æ‰€æœ‰ç«™é‡Œæ²¹ä»·æœ€å°çš„é‚£ä¸ªæ²¹ç«™
             index = i;
             minPrice = 1e18;
             for(j = i + 1; elem[j].second - elem[i].second <= capacity*avg && j <= n; j++)

@@ -5,9 +5,9 @@
 #include <cstring>
 using namespace std;
 /*
-1.Í¨¹ıÑ°ÕÒÈë¶ÈÎª0µÄµãÑ°ÕÒ¸ù
-2.Í¨¹ıBFSÅĞ¶Ï×îĞ¡¶ÑĞÔÖÊ
-3.Í¨¹ıÖĞĞò±éÀúÅĞ¶Ï¶ş²æÅÅĞòÊ÷ĞÔÖÊ 
+1.é€šè¿‡å¯»æ‰¾å…¥åº¦ä¸º0çš„ç‚¹å¯»æ‰¾æ ¹
+2.é€šè¿‡BFSåˆ¤æ–­æœ€å°å †æ€§è´¨
+3.é€šè¿‡ä¸­åºéå†åˆ¤æ–­äºŒå‰æ’åºæ ‘æ€§è´¨ 
 */
 
 struct node
@@ -16,7 +16,7 @@ struct node
 	int left,right;
 }tree[1005];
 
-int in[1005];//Èë¶È 
+int in[1005];//å…¥åº¦ 
 vector<int> ans;
 bool Judge1(int cur)
 {
@@ -34,7 +34,7 @@ bool Judge1(int cur)
 		if (tree[cur].left != -1 && (tree[tree[cur].left].k1 >= tree[cur].k1 || tree[tree[cur].left].k2 <= tree[cur].k2))		ok = 0;
 		if (tree[cur].right != -1 && (tree[tree[cur].right].k1 <= tree[cur].k1 || tree[tree[cur].right].k2 <= tree[cur].k2)) 	ok = 0;
 		if (!ok)	return false;
-		//¼ÓÈë×óÓÒº¢×Ó
+		//åŠ å…¥å·¦å³å­©å­
 		if (tree[cur].left != -1)	q.push(tree[cur].left); 
 		if (tree[cur].right != -1)	q.push(tree[cur].right);
 	}

@@ -6,30 +6,30 @@
 using namespace std;
 
 /*
-ÖÐ×º×ªºó×º±í´ïÊ½
-Ëã·¨Ë¼Â·:
-ÖÐ×º±í´ïÊ½a + b*c + (d * e + f) * g£¬Æä×ª»»³Éºó×º±í´ïÊ½ÔòÎªa b c * + d e * f  + g * +¡£
-×ª»»¹ý³ÌÐèÒªÓÃµ½Õ»£¬¾ßÌå¹ý³ÌÈçÏÂ£º
-1£©Èç¹ûÓöµ½²Ù×÷Êý£¬ÎÒÃÇ¾ÍÖ±½Ó½«ÆäÊä³ö¡£
-2£©Èç¹ûÓöµ½²Ù×÷·û£¬ÔòÎÒÃÇ½«Æä·ÅÈëµ½Õ»ÖÐ£¬Óöµ½×óÀ¨ºÅÊ±ÎÒÃÇÒ²½«Æä·ÅÈëÕ»ÖÐ¡£
-3£©Èç¹ûÓöµ½Ò»¸öÓÒÀ¨ºÅ£¬Ôò½«Õ»ÔªËØµ¯³ö£¬½«µ¯³öµÄ²Ù×÷·ûÊä³öÖ±µ½Óöµ½×óÀ¨ºÅÎªÖ¹¡£×¢Òâ£¬×óÀ¨ºÅÖ»µ¯³ö²¢²»Êä³ö¡£
-4£©Èç¹ûÓöµ½ÈÎºÎÆäËûµÄ²Ù×÷·û£¬Èç + £¬- , * £¬\ , ( µÈ£¬
-´ÓÕ»ÖÐµ¯³öÔªËØÖ±µ½Óöµ½·¢ÏÖ¸üµÍÓÅÏÈ¼¶µÄÔªËØ(»òÕßÕ»Îª¿Õ)ÎªÖ¹¡£
-µ¯³öÍêÕâÐ©ÔªËØºó£¬²Å½«Óöµ½µÄ²Ù×÷·ûÑ¹Èëµ½Õ»ÖÐ¡£
-ÓÐÒ»µãÐèÒª×¢Òâ£¬Ö»ÓÐÔÚÓöµ½ ) µÄÇé¿öÏÂÎÒÃÇ²Åµ¯³ö ( £¬ÆäËûÇé¿öÎÒÃÇ¶¼²»»áµ¯³ö ( ¡£
-Ò²¾ÍÊÇËµÕâÖÖ²Ù×÷£¬ + -µÄÓÅÏÈ¼¶×îµÍ, ( ÓÅÏÈ¼¶×î¸ß¡£
-5£©Èç¹ûÎÒÃÇ¶Áµ½ÁËÊäÈëµÄÄ©Î²£¬Ôò½«Õ»ÖÐËùÓÐÔªËØÒÀ´Îµ¯³ö¡£
+ä¸­ç¼€è½¬åŽç¼€è¡¨è¾¾å¼
+ç®—æ³•æ€è·¯:
+ä¸­ç¼€è¡¨è¾¾å¼a + b*c + (d * e + f) * gï¼Œå…¶è½¬æ¢æˆåŽç¼€è¡¨è¾¾å¼åˆ™ä¸ºa b c * + d e * f  + g * +ã€‚
+è½¬æ¢è¿‡ç¨‹éœ€è¦ç”¨åˆ°æ ˆï¼Œå…·ä½“è¿‡ç¨‹å¦‚ä¸‹ï¼š
+1ï¼‰å¦‚æžœé‡åˆ°æ“ä½œæ•°ï¼Œæˆ‘ä»¬å°±ç›´æŽ¥å°†å…¶è¾“å‡ºã€‚
+2ï¼‰å¦‚æžœé‡åˆ°æ“ä½œç¬¦ï¼Œåˆ™æˆ‘ä»¬å°†å…¶æ”¾å…¥åˆ°æ ˆä¸­ï¼Œé‡åˆ°å·¦æ‹¬å·æ—¶æˆ‘ä»¬ä¹Ÿå°†å…¶æ”¾å…¥æ ˆä¸­ã€‚
+3ï¼‰å¦‚æžœé‡åˆ°ä¸€ä¸ªå³æ‹¬å·ï¼Œåˆ™å°†æ ˆå…ƒç´ å¼¹å‡ºï¼Œå°†å¼¹å‡ºçš„æ“ä½œç¬¦è¾“å‡ºç›´åˆ°é‡åˆ°å·¦æ‹¬å·ä¸ºæ­¢ã€‚æ³¨æ„ï¼Œå·¦æ‹¬å·åªå¼¹å‡ºå¹¶ä¸è¾“å‡ºã€‚
+4ï¼‰å¦‚æžœé‡åˆ°ä»»ä½•å…¶ä»–çš„æ“ä½œç¬¦ï¼Œå¦‚ + ï¼Œ- , * ï¼Œ\ , ( ç­‰ï¼Œ
+ä»Žæ ˆä¸­å¼¹å‡ºå…ƒç´ ç›´åˆ°é‡åˆ°å‘çŽ°æ›´ä½Žä¼˜å…ˆçº§çš„å…ƒç´ (æˆ–è€…æ ˆä¸ºç©º)ä¸ºæ­¢ã€‚
+å¼¹å‡ºå®Œè¿™äº›å…ƒç´ åŽï¼Œæ‰å°†é‡åˆ°çš„æ“ä½œç¬¦åŽ‹å…¥åˆ°æ ˆä¸­ã€‚
+æœ‰ä¸€ç‚¹éœ€è¦æ³¨æ„ï¼Œåªæœ‰åœ¨é‡åˆ° ) çš„æƒ…å†µä¸‹æˆ‘ä»¬æ‰å¼¹å‡º ( ï¼Œå…¶ä»–æƒ…å†µæˆ‘ä»¬éƒ½ä¸ä¼šå¼¹å‡º ( ã€‚
+ä¹Ÿå°±æ˜¯è¯´è¿™ç§æ“ä½œï¼Œ + -çš„ä¼˜å…ˆçº§æœ€ä½Ž, ( ä¼˜å…ˆçº§æœ€é«˜ã€‚
+5ï¼‰å¦‚æžœæˆ‘ä»¬è¯»åˆ°äº†è¾“å…¥çš„æœ«å°¾ï¼Œåˆ™å°†æ ˆä¸­æ‰€æœ‰å…ƒç´ ä¾æ¬¡å¼¹å‡ºã€‚
 
-×¢ÒâÊÂÏî 
-1. ×¢Òâ¸ñÊ½Ä©Î²Ã»ÓÐ ¿Õ¸ñ£¬ÓÃfirstPrintÀ´¿ØÖÆ 
-2. ×¢Òâ-2+(+3)+(-2)ÕâÒ»ÀàµÄÊäÈë 
-2. ÓÅÏÈ¼¶¹ØÏµ
-3. Êý×ÖºÍ·ûºÅÊäÈëµÄ·½·¨
-4. ÓÃ = À´µ±Õ»µ×½øÐÐ±£»¤ 
+æ³¨æ„äº‹é¡¹ 
+1. æ³¨æ„æ ¼å¼æœ«å°¾æ²¡æœ‰ ç©ºæ ¼ï¼Œç”¨firstPrintæ¥æŽ§åˆ¶ 
+2. æ³¨æ„-2+(+3)+(-2)è¿™ä¸€ç±»çš„è¾“å…¥ 
+2. ä¼˜å…ˆçº§å…³ç³»
+3. æ•°å­—å’Œç¬¦å·è¾“å…¥çš„æ–¹æ³•
+4. ç”¨ = æ¥å½“æ ˆåº•è¿›è¡Œä¿æŠ¤ 
 */
 
 
-//ÓÅÏÈ¼¶ÅÐ¶Ï 
+//ä¼˜å…ˆçº§åˆ¤æ–­ 
 int OperPrior(char op)
 {
 	int key;
@@ -51,8 +51,8 @@ int OperPrior(char op)
 
 void Run() 
 {	
-	stack<char> optr;			//²Ù×÷·ûÕ»
-	optr.push('=');				//Ñ¹Èë'='×÷Îª±£»¤
+	stack<char> optr;			//æ“ä½œç¬¦æ ˆ
+	optr.push('=');				//åŽ‹å…¥'='ä½œä¸ºä¿æŠ¤
 	char ch;
 	double operand;
 	int First = 1;
@@ -60,13 +60,13 @@ void Run()
 	int firstPrint = 1;
 	ch = getchar();
 	while(ch != '\n') 
-	{//µ±Ç°±í´ïÊ½»¹Î´ÔËËã½áÊø£¬¼ÌÐøÔËËã
+	{//å½“å‰è¡¨è¾¾å¼è¿˜æœªè¿ç®—ç»“æŸï¼Œç»§ç»­è¿ç®—
 		if( (ch <= '9' && ch >= '0') || 
 			( (ch == '+' || ch == '-') && 
 			  ( First || (optr.top() == '(' && LastType == 1) ) ))
-		{//chÎªµÚÒ»¸ö²Ù×÷ÊýµÄµÚÒ»¸ö×Ö·û
-			cin.putback(ch);			//½«×Ö·ûch·Å»ØÊäÈëÁ÷
-			cin >> operand;				//¶ÁÈë²Ù×÷Êý
+		{//chä¸ºç¬¬ä¸€ä¸ªæ“ä½œæ•°çš„ç¬¬ä¸€ä¸ªå­—ç¬¦
+			cin.putback(ch);			//å°†å­—ç¬¦chæ”¾å›žè¾“å…¥æµ
+			cin >> operand;				//è¯»å…¥æ“ä½œæ•°
 			if(firstPrint)	
 			{
 				firstPrint = 0;
@@ -75,10 +75,10 @@ void Run()
 			else	cout << " " << operand;
 			First = 0;
 			LastType = 0;
-			ch = getchar();				//¶ÁÈëÏÂÒ»¸ö×Ö·û
+			ch = getchar();				//è¯»å…¥ä¸‹ä¸€ä¸ªå­—ç¬¦
 		}
 		else 
-		{//chÎª²Ù×÷·û
+		{//chä¸ºæ“ä½œç¬¦
 			LastType = 1;
 			if ( ch == ')' )
 			{
@@ -96,10 +96,10 @@ void Run()
 			}
 			else if ( OperPrior(optr.top()) < OperPrior(ch) )
 			{
-				optr.push(ch);					//chÈëoptrÕ»
+				optr.push(ch);					//chå…¥optræ ˆ
 			}
 			else if ( OperPrior(optr.top()) >= OperPrior(ch) )
-			{//opreTop´óÓÚ»òµÈÓÚchµÄÓÅÏÈ¼¶
+			{//opreTopå¤§äºŽæˆ–ç­‰äºŽchçš„ä¼˜å…ˆçº§
 				while(optr.top() != '(' && OperPrior(optr.top()) >= OperPrior(ch))
 				{
 					if(firstPrint)	
@@ -112,7 +112,7 @@ void Run()
 				}
 				optr.push(ch);
 			}
-			ch = getchar();//¶ÁÈëÐÂ×Ö·û
+			ch = getchar();//è¯»å…¥æ–°å­—ç¬¦
 		}
 	}
 

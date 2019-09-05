@@ -1,7 +1,7 @@
-//Àí½âÌâÄ¿ÓĞÎó°¡¡£
-//Back ÄÇ¸öÇ°Ãæ¼ÆËãÓĞÎÊÌâ   5ºÍ7²âÊÔÓÃÀıÒ»Ö±¹ı²»ÁË£¬
-//ºóÃæ²Î¿¼ÁËhttp://linest.iteye.com/blog/1423959
-//È»ºóÄÃÏÂÁË¡£
+//ç†è§£é¢˜ç›®æœ‰è¯¯å•Šã€‚
+//Back é‚£ä¸ªå‰é¢è®¡ç®—æœ‰é—®é¢˜   5å’Œ7æµ‹è¯•ç”¨ä¾‹ä¸€ç›´è¿‡ä¸äº†ï¼Œ
+//åé¢å‚è€ƒäº†http://linest.iteye.com/blog/1423959
+//ç„¶åæ‹¿ä¸‹äº†ã€‚
 #include <iostream>
 #include <cstdio>
 #include <vector>
@@ -59,7 +59,7 @@ void dfs(int ID, int curDis, int curNum,int cnt)
             }
         }
 
-        //Â·¾¶¸üĞ¡
+        //è·¯å¾„æ›´å°
         if(curDis < minDis)
         {
             minDis = curDis;
@@ -89,13 +89,13 @@ void dfs(int ID, int curDis, int curNum,int cnt)
     {
         if(!vis[adj[ID][i].first] && curDis + adj[ID][i].second <= minDis)
         {
-            //cout << "·ÃÎÊ" << adj[ID][i].first << endl;
+            //cout << "è®¿é—®" << adj[ID][i].first << endl;
             vis[adj[ID][i].first] = 1;
             path.push_back(adj[ID][i].first);
             dfs(adj[ID][i].first, curDis + adj[ID][i].second, curNum+numOfBike[adj[ID][i].first], cnt+1);
             path.pop_back();
             vis[adj[ID][i].first] = 0;
-            //cout << "»ØËİ" << adj[ID][i].first << endl;
+            //cout << "å›æº¯" << adj[ID][i].first << endl;
         }
     }
 }

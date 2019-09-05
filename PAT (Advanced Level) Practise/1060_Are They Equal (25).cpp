@@ -26,7 +26,7 @@ void Convert(string str, int n, cov &ans)
 		{
 			if(i != str.size())	
 			{
-				if(str[i] != '.')//ע�ⲻҪ��.�ӽ�ȥ�� 
+				if(str[i] != '.')//注意不要把.加进去了 
 				{
 					ans.d += str[i];
 					j++;

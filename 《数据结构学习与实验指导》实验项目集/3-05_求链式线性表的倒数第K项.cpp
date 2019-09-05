@@ -23,7 +23,7 @@ int main()
 }
 
 
-//Á´±í
+//é“¾è¡¨
 #include <iostream>
 #include <cmath>
 #include <cstring>

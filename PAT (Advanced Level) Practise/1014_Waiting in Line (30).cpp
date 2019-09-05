@@ -13,7 +13,7 @@ pair<int,int> Windows[25];
 map<int,int> ans;
 int n,m,k,query,i,j,val;
 
-//ÅĞ¶ÏÊÇ·ñÓĞ´°¿ÚÎª¿Õ
+//åˆ¤æ–­æ˜¯å¦æœ‰çª—å£ä¸ºç©º
 bool has_Windows(int &win_num)
 {
     for(int i = 1; i <= n; i++)
@@ -27,7 +27,7 @@ bool has_Windows(int &win_num)
     return false;
 }
 
-//²¹³äÅÅ¶ÓÈËÊı
+//è¡¥å……æ’é˜Ÿäººæ•°
 bool has_Queue()
 {
     for(int i = 1; i <= n; i++)
@@ -58,7 +58,7 @@ int main()
         Peo.push( make_pair(i,val) );
     }
 
-    //³õÊ¼»¯¸÷¸ö´°¿ÚÇ°µÄÅÅ¶Ó¶ÓÁĞ
+    //åˆå§‹åŒ–å„ä¸ªçª—å£å‰çš„æ’é˜Ÿé˜Ÿåˆ—
     while(q[n].size() != m && !Peo.empty())
     {
         for(i = 1; i <= n; i++)
@@ -71,10 +71,10 @@ int main()
         }
     }
 
-    int time = 8*60;//ÆğÊ¼Ê±¼ä
+    int time = 8*60;//èµ·å§‹æ—¶é—´
     while(time < 17*60)
     {
-        //´°¿Ú¹¤×÷
+        //çª—å£å·¥ä½œ
         for(i = 1; i <= n; i++)
         {
             if(Windows[i].second != 0)
@@ -87,18 +87,18 @@ int main()
             }
         }
 
-        //´°¿Ú¿ÕÏĞ£¬µ÷ÈëÅÅ¶ÓµÄÈË
+        //çª—å£ç©ºé—²ï¼Œè°ƒå…¥æ’é˜Ÿçš„äºº
         int win_num = -1;
         while(has_Windows(win_num))
         {
             Windows[win_num] = q[win_num].front();
-            //cout << "ÈËÔ±" <<q[win_num].front().first << "½øÈë´°¿Ú" <<win_num<<endl;
-            //cout << "ÈËÔ±" << q[win_num].front().first << "½«ÔÚ"
-            //     <<(q[win_num].front().second+time )/60<< ":"<<(q[win_num].front().second+time )%60<<"Íê³É"<<endl;
+            //cout << "äººå‘˜" <<q[win_num].front().first << "è¿›å…¥çª—å£" <<win_num<<endl;
+            //cout << "äººå‘˜" << q[win_num].front().first << "å°†åœ¨"
+            //     <<(q[win_num].front().second+time )/60<< ":"<<(q[win_num].front().second+time )%60<<"å®Œæˆ"<<endl;
             //cout << endl;
             ans[q[win_num].front().first] = q[win_num].front().second+time;
         }
-        //²¹³ä´°¿ÚÇ°ÅÅ¶ÓÈËÊı
+        //è¡¥å……çª—å£å‰æ’é˜Ÿäººæ•°
         while(has_Queue())
         {
             int minSize = 100000;
@@ -117,7 +117,7 @@ int main()
             if(!Peo.empty() && index != -1)
             {
                 q[index].push(Peo.front());
-                //cout << "ÈËÔ±" <<Peo.front().first << "½øÈë¶ÓÁĞ" <<index<<endl;
+                //cout << "äººå‘˜" <<Peo.front().first << "è¿›å…¥é˜Ÿåˆ—" <<index<<endl;
                 Peo.pop();
             }
             else

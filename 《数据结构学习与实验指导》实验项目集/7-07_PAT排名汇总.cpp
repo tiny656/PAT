@@ -8,8 +8,8 @@
 #include <cstring>
 using namespace std;
  
-//1.°´¿¼³¡ºÍ·ÖÊýÅÅ1´Î ¼ÆËã¿¼³¡Ãû´Î 
-//2.°´ÕûÌå·ÖÊý ÅÅ1´Î  ¼ÆËã×ÜÃû´Î
+//1.æŒ‰è€ƒåœºå’Œåˆ†æ•°æŽ’1æ¬¡ è®¡ç®—è€ƒåœºåæ¬¡ 
+//2.æŒ‰æ•´ä½“åˆ†æ•° æŽ’1æ¬¡  è®¡ç®—æ€»åæ¬¡
 struct info
 {
 	string ID;

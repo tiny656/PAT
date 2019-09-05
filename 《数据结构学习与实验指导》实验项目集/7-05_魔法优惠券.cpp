@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 /*
-贪心算法  正数*正数  负数*负数 
+璐績绠楁硶  姝ｆ暟*姝ｆ暟  璐熸暟*璐熸暟 
 */
 int main()
 {

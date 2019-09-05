@@ -1,7 +1,7 @@
 /*
-    ²¢²é¼¯ÅĞ¶Ï Ê÷µÄ¸öÊı
-    µÚ1´ÎBFSÕÒµ½×îÔ¶Ò¶×Ó½áµã
-    µÚ2´ÎBFSÕÒµ½¾àÀë×îÔ¶µÄËùÓĞ½áµã¼¯ºÏ
+    å¹¶æŸ¥é›†åˆ¤æ–­ æ ‘çš„ä¸ªæ•°
+    ç¬¬1æ¬¡BFSæ‰¾åˆ°æœ€è¿œå¶å­ç»“ç‚¹
+    ç¬¬2æ¬¡BFSæ‰¾åˆ°è·ç¦»æœ€è¿œçš„æ‰€æœ‰ç»“ç‚¹é›†åˆ
 */
 #include <iostream>
 #include <cstring>
@@ -99,7 +99,7 @@ int main()
     else
     {
         set<int> ans;
-        int farMax = bfs(1);//Àë1×îÔ¶¾àÀë
+        int farMax = bfs(1);//ç¦»1æœ€è¿œè·ç¦»
         int tmp;
         for(i = 1; i <= n; i++)
         {
@@ -109,8 +109,8 @@ int main()
                 break;
             }
         }
-        farMax = bfs(tmp);//Ñ°ÕÒ¾àÀë×îÔ¶µÄÁ½µã
-        ans.insert(tmp);//×ÔÉíÒ²Òª¼ÓÈë
+        farMax = bfs(tmp);//å¯»æ‰¾è·ç¦»æœ€è¿œçš„ä¸¤ç‚¹
+        ans.insert(tmp);//è‡ªèº«ä¹Ÿè¦åŠ å…¥
         for(i = 1; i <= n; i++)
         {
             if(dist[i] == farMax)

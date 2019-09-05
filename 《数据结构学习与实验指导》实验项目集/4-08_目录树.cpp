@@ -3,7 +3,7 @@
 #include <map>
 using namespace std;
 /*
-½¨Ê÷ ÒÔ¼° mapµÄÊ¹ÓÃ 
+å»ºæ ‘ ä»¥åŠ mapçš„ä½¿ç”¨ 
 */
 struct node 
 {

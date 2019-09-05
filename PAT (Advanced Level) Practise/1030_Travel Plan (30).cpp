@@ -39,7 +39,7 @@ void BFS(int s,int d)
     dist[temp.to] = 0;
     pq.push(temp);
     path[s] = -1;
-    //cout << "-1µ½" << s << endl;
+    //cout << "-1åˆ°" << s << endl;
     while( !pq.empty() )
     {
         temp = pq.top();
@@ -69,17 +69,17 @@ void BFS(int s,int d)
             if(cur.len < dist[cur.to])
             {
                 dist[cur.to] = cur.len;
-                //cout << temp.to << "µ½" << cur.to << endl;
+                //cout << temp.to << "åˆ°" << cur.to << endl;
                 noteMoney[cur.to] = cur.money;
-                //cout << cur.to << "µÄ»¨·Ñ¸üÐÂ³É" << cur.money << endl;
+                //cout << cur.to << "çš„èŠ±è´¹æ›´æ–°æˆ" << cur.money << endl;
                 path[cur.to] = temp.to;
                 pq.push(cur);
             }
             else if(cur.len == dist[cur.to] && noteMoney[cur.to] > cur.money)
             {
-                //cout << temp.to << "µ½" << cur.to << endl;
+                //cout << temp.to << "åˆ°" << cur.to << endl;
                 noteMoney[cur.to] = cur.money;
-                //cout << cur.to << "µÄ»¨·Ñ¸üÐÂ³É" << cur.money << endl;
+                //cout << cur.to << "çš„èŠ±è´¹æ›´æ–°æˆ" << cur.money << endl;
                 path[cur.to] = temp.to;
                 pq.push(cur);
             }

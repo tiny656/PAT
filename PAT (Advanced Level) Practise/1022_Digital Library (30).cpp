@@ -10,13 +10,13 @@ map<string,set<string> > note;
 vector<string> vec;
 void StringSplit(string s,char splitchar,vector<string>& vec)
 {
-    if(vec.size()>0)//±£Ö¤vecÊÇ¿ÕµÄ
+    if(vec.size()>0)//ä¿è¯vecæ˜¯ç©ºçš„
        vec.clear();
     int length = s.length();
     int start=0;
     for(int i=0;i<length;i++)
     {
-       if(s[i] == splitchar && i == 0)//µÚÒ»¸ö¾ÍÓöµ½·Ö¸î·û
+       if(s[i] == splitchar && i == 0)//ç¬¬ä¸€ä¸ªå°±é‡åˆ°åˆ†å‰²ç¬¦
        {
            start += 1;
        }
@@ -25,7 +25,7 @@ void StringSplit(string s,char splitchar,vector<string>& vec)
            vec.push_back(s.substr(start,i - start));
            start = i+1;
        }
-       else if(i == length-1)//µ½´ïÎ²²¿
+       else if(i == length-1)//åˆ°è¾¾å°¾éƒ¨
        {
            vec.push_back(s.substr(start,i+1 - start));
        }

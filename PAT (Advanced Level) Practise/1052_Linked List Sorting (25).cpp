@@ -24,7 +24,7 @@ int main()
 {
 	int n,startHead,i,Addr,Key,Next;
 	cin >> n >> startHead;
-	if(startHead == -1)	//µ°ÌÛµÄÒ»¸ö±ß½çÊı¾İ
+	if(startHead == -1)	//è›‹ç–¼çš„ä¸€ä¸ªè¾¹ç•Œæ•°æ®
 	{
 		cout << "0 -1" << endl;
 		return 0;
@@ -39,7 +39,7 @@ int main()
 		Linkedlist[Addr].Next = Next;
 	}
 	int cur = startHead;
-	while(cur != -1)//Ìß³ö·ÇÍ·Á´±íµØÖ·ËùÄÜµ½´ï½Úµã
+	while(cur != -1)//è¸¢å‡ºéå¤´é“¾è¡¨åœ°å€æ‰€èƒ½åˆ°è¾¾èŠ‚ç‚¹
 	{
 		recorder.push_back(Linkedlist[cur]);
 		cur =  Linkedlist[cur].Next;

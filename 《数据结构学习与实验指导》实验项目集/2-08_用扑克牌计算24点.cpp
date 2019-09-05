@@ -6,8 +6,8 @@
 using namespace std;
 
 /*
-CopyÍøÉÏÒÑÓĞµÄ´úÂë½øĞĞĞŞ¸ÄµÃµ½
-¼ÓÀ¨ºÅÊÇ×îÍâ²ãµÄ²»ĞèÒª£¬Ê£ÏÂµÄ¶¼Ìí¼ÓÒ»¶Ô
+Copyç½‘ä¸Šå·²æœ‰çš„ä»£ç è¿›è¡Œä¿®æ”¹å¾—åˆ°
+åŠ æ‹¬å·æ˜¯æœ€å¤–å±‚çš„ä¸éœ€è¦ï¼Œå‰©ä¸‹çš„éƒ½æ·»åŠ ä¸€å¯¹
 */
 
 double number[4];
@@ -36,22 +36,22 @@ bool PointsGame(int n)
 
             a = number[i];
             b = number[j];
-            number[j] = number[n-1];     //ÈÎÈ¡Á½¸öÊı²¢½«Æä½á¹û·ÅÈëÊı×éºó£¬Ô­Êı×éµÄ¸öÊı¼õÉÙÒ»¸ö
+            number[j] = number[n-1];     //ä»»å–ä¸¤ä¸ªæ•°å¹¶å°†å…¶ç»“æœæ”¾å…¥æ•°ç»„åï¼ŒåŸæ•°ç»„çš„ä¸ªæ•°å‡å°‘ä¸€ä¸ª
 
-            expa = result[i];            //±£´æ±í´ïÊ½ÖĞµÄÊı×Ö
+            expa = result[i];            //ä¿å­˜è¡¨è¾¾å¼ä¸­çš„æ•°å­—
             expb = result[j];
             result[j] = result[n-1];
 
             if(n != 2)
-                result[i] = '(' + expa + '+' + expb + ')';      //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°+¡±ÔËËã·ûÏÂµÄ½á¹û
+                result[i] = '(' + expa + '+' + expb + ')';      //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ+â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
             else
                 result[i] = expa + '+' + expb;
-            number[i] = a + b;                              //½«¸ÃÔËËã·ûÏÂµÄÔËËã½á¹û·ÅÈëÊı×éÖĞ
+            number[i] = a + b;                              //å°†è¯¥è¿ç®—ç¬¦ä¸‹çš„è¿ç®—ç»“æœæ”¾å…¥æ•°ç»„ä¸­
             if(PointsGame(n - 1))
                 return true;
 
             if(n != 2)
-                result[i] = '(' + expa + '-' + expb + ')';      //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°-¡±ÔËËã·ûÏÂµÄ½á¹û
+                result[i] = '(' + expa + '-' + expb + ')';      //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ-â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
             else
                 result[i] = expa + '-' + expb;
             number[i] = a - b;
@@ -59,7 +59,7 @@ bool PointsGame(int n)
                 return true;
 
             if(n != 2)
-                result[i] = '(' + expb + '-' + expa + ')';      //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°-¡±ÔËËã·ûÏÂµÄ½á¹û
+                result[i] = '(' + expb + '-' + expa + ')';      //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ-â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
             else
                 result[i] = expb + '-' + expa;
             number[i] = b - a;
@@ -67,7 +67,7 @@ bool PointsGame(int n)
                 return true;
 
             if(n != 2)
-                result[i] = '(' + expa + '*' + expb + ')';      //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°*¡±ÔËËã·ûÏÂµÄ½á¹û
+                result[i] = '(' + expa + '*' + expb + ')';      //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ*â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
             else
                 result[i] = expa + '*' + expb;
             number[i] = a * b;
@@ -76,7 +76,7 @@ bool PointsGame(int n)
             if(b != 0)
             {
                 if(n != 2)
-                    result[i] = '(' + expa + '/' + expb + ')';  //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°/¡±ÔËËã·ûÏÂµÄ½á¹û
+                    result[i] = '(' + expa + '/' + expb + ')';  //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ/â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
                 else    result[i] = expa + '/' + expb;
                 number[i] = a / b;
                 if(PointsGame(n - 1))
@@ -85,14 +85,14 @@ bool PointsGame(int n)
             if(a != 0)
             {
                 if(n != 2)
-                    result[i] = '(' + expb + '/' + expa + ')';  //ÈÎÈ¡µÄÁ½¸öÊıÔÚ¡°/¡±ÔËËã·ûÏÂµÄ½á¹û
+                    result[i] = '(' + expb + '/' + expa + ')';  //ä»»å–çš„ä¸¤ä¸ªæ•°åœ¨â€œ/â€è¿ç®—ç¬¦ä¸‹çš„ç»“æœ
                 else
                     result[i] = expb + '/' + expa;
                 number[i] = b / a;
                 if(PointsGame(n - 1))
                     return true;
             }
-            number[i] = a;    //½«¸Õ¿ªÊ¼ÈÎÈ¡µÄÁ½¸öÊıÖØĞÂ·Å»ØÊı×éÖĞ¶ÔÓ¦µÄÎ»ÖÃ
+            number[i] = a;    //å°†åˆšå¼€å§‹ä»»å–çš„ä¸¤ä¸ªæ•°é‡æ–°æ”¾å›æ•°ç»„ä¸­å¯¹åº”çš„ä½ç½®
             number[j] = b;
             result[i] = expa;
             result[j] = expb;

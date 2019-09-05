@@ -28,7 +28,7 @@ void Queue::Sort()
 	{
  		int min = q.front();
  		q.pop();
-        int turn = len - 1;//ÐèÒª±È½Ï´ÎÊý 
+        int turn = len - 1;//éœ€è¦æ¯”è¾ƒæ¬¡æ•° 
         while(turn > 0) 
 		{
             int value = q.front();

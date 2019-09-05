@@ -1,4 +1,4 @@
-//cout �ᳬʱ
+//cout 会超时
 #include <cstdio>
 #include <cstring>
 using namespace std;

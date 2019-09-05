@@ -15,10 +15,10 @@ struct info
     int tag;
 }tmp;
 
-deque<info> noVIP;//·Ç¹ó±ö¶ÓÁĞ
-deque<info> VIP;//¹ó±ö¶ÓÁĞ
-int table[maxn];//¼ÇÂ¼×À×Óµ±Ç°·şÎñ»¹Ê£¶àÉÙÊ±¼ä
-int numsTableServed[maxn];//¼ÇÂ¼×À×Ó·şÎñµÄ¿Í»§ÊıÁ¿
+deque<info> noVIP;//éè´µå®¾é˜Ÿåˆ—
+deque<info> VIP;//è´µå®¾é˜Ÿåˆ—
+int table[maxn];//è®°å½•æ¡Œå­å½“å‰æœåŠ¡è¿˜å‰©å¤šå°‘æ—¶é—´
+int numsTableServed[maxn];//è®°å½•æ¡Œå­æœåŠ¡çš„å®¢æˆ·æ•°é‡
 int VIPTableCol[maxn];
 int n,hh,mm,ss,tableNums,vipTableNums,id;
 
@@ -176,17 +176,17 @@ int main()
                 table[i]--;
         }
 
-        while(isVIPCome(cur))//¼ì²éÊÇ·ñÓĞÆäËûVIPµ½
+        while(isVIPCome(cur))//æ£€æŸ¥æ˜¯å¦æœ‰å…¶ä»–VIPåˆ°
         {
-            //printf("µ±Ç°Ê±¼ä%d, ÓĞVIPµ½\n", cur);
-            if(hasVIPTable(TableID))//¼ì²éÊÇ·ñÓĞVIP×À×Ó¿ÕÏĞ
+            //printf("å½“å‰æ—¶é—´%d, æœ‰VIPåˆ°\n", cur);
+            if(hasVIPTable(TableID))//æ£€æŸ¥æ˜¯å¦æœ‰VIPæ¡Œå­ç©ºé—²
             {
                 info curPair = VIP.front();
                 VIP.pop_front();
                 table[TableID] = curPair.serveTime;
                 numsTableServed[TableID]++;
 
-                //printf("ÎªVIP¿Í»§·ÖÅä×À×Ó%d\n", TableID);
+                //printf("ä¸ºVIPå®¢æˆ·åˆ†é…æ¡Œå­%d\n", TableID);
 
                 printf("%.2d:%.2d:%.2d %.2d:%.2d:%.2d %d\n", curPair.comeTime/60/60,
                        curPair.comeTime/60%60, curPair.comeTime%60, cur/60/60, cur/60%60,
@@ -198,11 +198,11 @@ int main()
             }
         }
 
-        while(hasNext(cur, earlyPairFrom))//ÕÒ³öÒÑ¾­µ½ÁËÊ±¼ä×îÔçµÄpair
+        while(hasNext(cur, earlyPairFrom))//æ‰¾å‡ºå·²ç»åˆ°äº†æ—¶é—´æœ€æ—©çš„pair
         {
-            if(earlyPairFrom)//Èç¹û×îÔçµÄÊÇ¸öVIP
+            if(earlyPairFrom)//å¦‚æœæœ€æ—©çš„æ˜¯ä¸ªVIP
             {
-                if(hasTable(TableID))//¼ì²éÊÇ·ñÓĞ×À×Ó
+                if(hasTable(TableID))//æ£€æŸ¥æ˜¯å¦æœ‰æ¡Œå­
                 {
                     info curPair;
                     curPair = VIP.front(); VIP.pop_front();
@@ -218,19 +218,19 @@ int main()
                 }
 
             }
-            else//×îÔçµÄ²»ÊÇ¸öVIP
+            else//æœ€æ—©çš„ä¸æ˜¯ä¸ªVIP
             {
-                while(isVIPCome(cur))//¼ì²éÊÇ·ñÓĞÆäËûVIPµ½
+                while(isVIPCome(cur))//æ£€æŸ¥æ˜¯å¦æœ‰å…¶ä»–VIPåˆ°
                 {
-                    //printf("µ±Ç°Ê±¼ä%d, ÓĞVIPµ½\n", cur);
-                    if(hasVIPTable(TableID))//¼ì²éÊÇ·ñÓĞVIP×À×Ó¿ÕÏĞ
+                    //printf("å½“å‰æ—¶é—´%d, æœ‰VIPåˆ°\n", cur);
+                    if(hasVIPTable(TableID))//æ£€æŸ¥æ˜¯å¦æœ‰VIPæ¡Œå­ç©ºé—²
                     {
                         info curPair = VIP.front();
                         VIP.pop_front();
                         table[TableID] = curPair.serveTime;
                         numsTableServed[TableID]++;
 
-                        //printf("ÎªVIP¿Í»§·ÖÅä×À×Ó%d\n", TableID);
+                        //printf("ä¸ºVIPå®¢æˆ·åˆ†é…æ¡Œå­%d\n", TableID);
 
                         printf("%.2d:%.2d:%.2d %.2d:%.2d:%.2d %d\n", curPair.comeTime/60/60,
                                curPair.comeTime/60%60, curPair.comeTime%60, cur/60/60, cur/60%60,
@@ -241,15 +241,15 @@ int main()
                         break;
                     }
                 }
-                //ÎªŒÅË¿·ÖÅä×À×Ó
-                if(hasTable(TableID))//¼ì²éÊÇ·ñÓĞ×À×Ó
+                //ä¸ºå±Œä¸åˆ†é…æ¡Œå­
+                if(hasTable(TableID))//æ£€æŸ¥æ˜¯å¦æœ‰æ¡Œå­
                 {
                     info curPair;
                     curPair = noVIP.front(); noVIP.pop_front();
 
                     table[TableID] = curPair.serveTime;
                     numsTableServed[TableID]++;
-                    //printf("ÎªnoVIP¿Í»§·ÖÅä×À×Ó%d\n", TableID);
+                    //printf("ä¸ºnoVIPå®¢æˆ·åˆ†é…æ¡Œå­%d\n", TableID);
 
                     printf("%.2d:%.2d:%.2d %.2d:%.2d:%.2d %d\n", curPair.comeTime/60/60,
                            curPair.comeTime/60%60, curPair.comeTime%60, cur/60/60, cur/60%60,

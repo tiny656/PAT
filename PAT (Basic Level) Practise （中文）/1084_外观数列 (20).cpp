@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// ¸ù¾İµ±Ç°itemÉú³ÉÏÂÒ»Ïî
+// æ ¹æ®å½“å‰itemç”Ÿæˆä¸‹ä¸€é¡¹
 string next(const string &item) {
 	int cnt = 1;
 	string ret = "";

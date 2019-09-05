@@ -5,7 +5,7 @@
 #include <cstdio>
 using namespace std;
 /*
-BKDRHashÁ´Ê½hash 
+BKDRHashé“¾å¼hash 
 */
 struct info
 {

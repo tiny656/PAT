@@ -1,5 +1,5 @@
 /*
-map ÓÃ×÷hash À´¼ÇÂ¼¸öÊıÁË¡£
+map ç”¨ä½œhash æ¥è®°å½•ä¸ªæ•°äº†ã€‚
 */
 #include <iostream>
 #include <cstdio>

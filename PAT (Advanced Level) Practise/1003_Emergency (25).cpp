@@ -12,10 +12,10 @@ int matrix[N][N];
 
 vector<int> path;
 
-void DFS(int next)//ÉîËÑ + »ØËİ
+void DFS(int next)//æ·±æœ + å›æº¯
 {
     int i;
-    if(next == e)//Èç¹ûµ±Ç°µãÊÇÄ¿±êµã
+    if(next == e)//å¦‚æœå½“å‰ç‚¹æ˜¯ç›®æ ‡ç‚¹
     {
         int curTeam = 0, curDis = 0;
         for(i = 0; i < path.size(); i++)
@@ -85,14 +85,14 @@ int main()
         minDis = 0x7fffffff;
         maxTeam = -1;
 
-        //ËÑË÷+»ØËİ¿ªÊ¼
+        //æœç´¢+å›æº¯å¼€å§‹
         vis[s] = 1;
         path.push_back(s);
         DFS(s);
         path.pop_back();
         vis[s] = 0;
 
-        //´òÓ¡´ğ°¸
+        //æ‰“å°ç­”æ¡ˆ
         cout << numDis << " " << maxTeam << endl;
     }
     return 0;

@@ -1,5 +1,5 @@
-//ԭʼ��
-//fuck   ֻҪ���ԺϷ�����   ������������   ��һ��Sample �����ܲ��ԣ� ԭ�����⡣
+//原始版
+//fuck   只要除以合法人数   而不是总人数   第一个Sample 老是跑不对， 原因在这。
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -79,7 +79,7 @@ int main()
 
 
 /*
-//���Լ������ϣ��������ϵ������˸����¡�  ������ʵ�����涨���Int�ͺ��ˣ�����Ҿ���д�Ļ��鷳�ˡ�
+//在自己基础上，照着网上的其他人改了下。  窗口其实像上面定义成Int就好了，这个我觉得写的还麻烦了。
 
 #include <iostream>
 #include <cstdio>

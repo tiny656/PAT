@@ -6,7 +6,7 @@
 #include <map>
 using namespace std;
 /*
-ÅÅĞò¼Ó¶ş·Ö 
+æ’åºåŠ äºŒåˆ† 
 */
 struct e
 {

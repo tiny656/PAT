@@ -23,7 +23,7 @@ static inline bool get(int &v)
 	return 1 ;
 }
 /*
-Ê÷×´Êı×éÇóµÚkĞ¡ÔªËØ
+æ ‘çŠ¶æ•°ç»„æ±‚ç¬¬kå°å…ƒç´ 
 */
 const int maxn = 100005;
 int n,k;   

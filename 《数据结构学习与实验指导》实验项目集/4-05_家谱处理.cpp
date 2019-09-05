@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 /*
-½¨Ê÷ÎÊÌâ 
+å»ºæ ‘é—®é¢˜ 
 */
 struct node
 {

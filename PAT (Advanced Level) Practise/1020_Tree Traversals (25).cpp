@@ -26,9 +26,9 @@ node::node(const int &v)
 }
 
 void build(node * &r, int post[],int in[],int postLeft,int postRight, int inLeft, int inRight)
-{//¹¹ÔìÒÔrÎª¸ùµÄ¶ş²æÊ÷
+{//æ„é€ ä»¥rä¸ºæ ¹çš„äºŒå‰æ ‘
     if(inLeft > inRight)
-    {//¶ş²æÊ÷ÎŞ½áµã£¬¿Õ¶ş²æÊ÷
+    {//äºŒå‰æ ‘æ— ç»“ç‚¹ï¼Œç©ºäºŒå‰æ ‘
         r = NULL;
     }
     else
@@ -36,12 +36,12 @@ void build(node * &r, int post[],int in[],int postLeft,int postRight, int inLeft
         r = new node(post[postRight]);
         int mid = inLeft;
         while(in[mid] != post[postRight])
-        {//ÕÒ³öÖĞĞò±éÀúÖĞ¸ùµÄÎ»ÖÃ
+        {//æ‰¾å‡ºä¸­åºéå†ä¸­æ ¹çš„ä½ç½®
             mid++;
         }
-        //cout << "¸ù£º" << post[postRight] << endl;
-        //cout << "×ó£º" << postLeft << " " <<  postLeft+(mid-1) << " " <<  inLeft << " " <<  mid-1 << endl;
-        //cout << "ÓÒ£º" << postLeft+mid << " " <<   postLeft+mid-inLeft << " " <<  mid+1 << " " <<  inRight << endl;
+        //cout << "æ ¹ï¼š" << post[postRight] << endl;
+        //cout << "å·¦ï¼š" << postLeft << " " <<  postLeft+(mid-1) << " " <<  inLeft << " " <<  mid-1 << endl;
+        //cout << "å³ï¼š" << postLeft+mid << " " <<   postLeft+mid-inLeft << " " <<  mid+1 << " " <<  inRight << endl;
         //system("pause");
         build(r->left, post, in, postLeft, postLeft+(mid-1-inLeft), inLeft, mid-1);
         build(r->right, post, in, postLeft+mid-inLeft, postRight-1, mid+1, inRight);

@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-SpfaËã·¨ 
+Spfaç®—æ³• 
 */ 
 
 const int MAX = 0x3fffffff;
@@ -16,7 +16,7 @@ int n;
 void Spfa(int start)
 {
     int i;
-    for (i = 0; i <= n; ++i)//³õÊ¼»¯
+    for (i = 0; i <= n; ++i)//åˆå§‹åŒ–
     {
         dis[i] = MAX;
         visited[i] = false;    

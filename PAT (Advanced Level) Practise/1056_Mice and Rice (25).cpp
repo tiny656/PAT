@@ -23,8 +23,8 @@ static inline bool get(int &v)
 	return 1 ;
 }
 /*
-shit.�򵥵�ģ���⣬���⿴��̫�����ˡ�
-���ǣ������һ��group�У������ص������ж���һ���ģ���Ҫһ�������
+shit.简单的模拟题，题意看着太蛋疼了。
+但是，如果在一个group中，有最重的体重有多余一个的，需要一起晋级。
 */
 int w[1005];
 int ord[1005];
