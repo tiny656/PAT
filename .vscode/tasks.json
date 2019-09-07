@@ -6,7 +6,9 @@
         {
             "label": "clean",
             "type": "shell",
-            "command": "Remove-Item * -Include *.obj,*.exe -Recurse",
+            "windows": {
+                "command": "Remove-Item * -Include *.obj,*.exe,*pdb,*ilk -Recurse"
+            },
             "group": "build",
             "presentation": {
                 "echo": true,
@@ -19,7 +21,9 @@
         {
             "label": "compile",
             "type": "shell",
-            "command": "cmd /c build.bat '${relativeFileDirname}/${fileBasename}'",
+            "windows": {
+                "command": "cmd /c build.bat '${relativeFileDirname}/${fileBasename}'"
+            },
             "group": "build",
             "dependsOn": "clean",
             "presentation": {
@@ -47,7 +51,9 @@
         {
             "label": "run",
             "type": "shell",
-            "command": ".\\'${relativeFileDirname}/${fileBasenameNoExtension}.exe'",
+            "windows": {
+                "command": ".\\'${relativeFileDirname}/${fileBasenameNoExtension}.exe'"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
