@@ -19,7 +19,7 @@
         {
             "label": "compile",
             "type": "shell",
-            "command": "build.bat '${relativeFileDirname}/${fileBasenameNoExtension}'",
+            "command": "cmd /c build.bat '${relativeFileDirname}/${fileBasename}'",
             "group": "build",
             "dependsOn": "clean",
             "presentation": {
