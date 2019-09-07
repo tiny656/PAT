@@ -16,6 +16,7 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 - [Basic-Level](#basic-level)
 - [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
 - [基础编程题目集](#基础编程题目集)
+- [数据结构与算法题目集（中文）])(数据结构与算法题目集（中文）)
 
 # Top-Level
 | ID | Title | Code |
@@ -356,3 +357,18 @@ PAT是浙江大学计算机程序设计能力测试系统，被用于研究生�
 | 7-7 | 12-24小时制 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-7_12-24小时制%20(15).py) |
 | 7-8 | 超速判断 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-8_超速判断%20(10).py) |
 | 7-9 | 用天平找小球 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-9_用天平找小球%20(10).py) |
+# 数据结构与算法题目集（中文）
+| ID | Title | Code |
+| :--: | :--: | :--: |
+| 6-1 | 单链表逆转 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-1_单链表逆转%20(20).c) |
+| 6-10 | 二分查找 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-10_二分查找%20(20).c) |
+| 6-11 | 先序输出叶结点 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-11_先序输出叶结点%20(15).c) |
+| 6-12 | 二叉搜索树的操作集 (30) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-12_二叉搜索树的操作集%20(30).c) |
+| 6-2 | 顺序表操作集 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-2_顺序表操作集%20(20).c) |
+| 6-3 | 求链式表的表长 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-3_求链式表的表长%20(10).c) |
+| 6-4 | 链式表的按序号查找 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-4_链式表的按序号查找%20(10).c) |
+| 6-5 | 链式表操作集 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-5_链式表操作集%20(20).c) |
+| 6-6 | 带头结点的链式表操作集 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-6_带头结点的链式表操作集%20(20).c) |
+| 6-7 | 在一个数组中实现两个堆栈 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-7_在一个数组中实现两个堆栈%20(20).c) |
+| 6-8 | 求二叉树高度 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-8_求二叉树高度%20(20).c) |
+| 6-9 | 二叉树的遍历 (25) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-9_二叉树的遍历%20(25).c) |
