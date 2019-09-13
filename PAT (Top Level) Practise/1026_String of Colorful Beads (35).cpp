@@ -36,15 +36,9 @@ int main()
             colorSet.insert(color[hi]);
             curVal += value[color[hi]-1];
             maxLen = max(maxLen, hi-lo+1);
-            if (maxLen > get<0>(ans)) {
-                get<0>(ans) = maxLen;
-                get<1>(ans) = curVal;
-                get<2>(ans) = lo;
-                get<3>(ans) = hi;
-            } else if (maxLen == get<0>(ans) && curVal > get<1>(ans)) {
-                get<1>(ans) = curVal;
-                get<2>(ans) = lo;
-                get<3>(ans) = hi;
+            if (maxLen > get<0>(ans) 
+               || (maxLen == get<0>(ans) && curVal > get<1>(ans))) {
+                ans = make_tuple(maxLen, curVal, lo, hi);
             }
             hi += 1;
         }
