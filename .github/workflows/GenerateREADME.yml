@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
-      with:
-        ref: master
-
+      run: |
+        git clone https://github.com/tiny656/PAT.git PAT
+        cd PAT
+        
     - name: Setup python
       uses: actions/setup-python@v1
       with:
