@@ -52,7 +52,7 @@
             "label": "run",
             "type": "shell",
             "windows": {
-                "command": ".\\'${relativeFileDirname}/${fileBasenameNoExtension}.exe'"
+                "command": ".\\'${fileBasenameNoExtension}.exe'"
             },
             "group": {
                 "kind": "build",
