@@ -22,7 +22,7 @@
             "label": "compile",
             "type": "shell",
             "windows": {
-                "command": "cmd /c ./vscode/build.bat '${relativeFileDirname}/${fileBasename}'"
+                "command": "cmd /c .\\.vscode\\build.bat '${relativeFileDirname}/${fileBasename}'"
             },
             "group": "build",
             "dependsOn": "clean",
