@@ -4,28 +4,25 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "clean",
+            "label": "Run with C/C++",
             "type": "shell",
             "windows": {
-                "command": "Remove-Item * -Include *.obj,*.exe,*pdb,*ilk -Recurse"
+                "command": "Remove-Item",
+                "args": [
+                    "*",
+                    "-Include",
+                    "*.obj,*.exe,*pdb,*ilk",
+                    "-Recurse",
+                    ";",
+                    "cmd",
+                    "/c",
+                    ".\\.vscode\\build.bat",
+                    "'${relativeFileDirname}/${fileBasename}'",
+                    ";",
+                    ".\\'${fileBasenameNoExtension}.exe'",
+                ]
             },
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "compile",
-            "type": "shell",
-            "windows": {
-                "command": "cmd /c .\\.vscode\\build.bat '${relativeFileDirname}/${fileBasename}'"
-            },
-            "group": "build",
-            "dependsOn": "clean",
+            "group": "test",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -49,23 +46,24 @@
             }
         },
         {
-            "label": "run",
+            "label": "Run with Python",
             "type": "shell",
             "windows": {
-                "command": ".\\'${fileBasenameNoExtension}.exe'"
+                "command": "cmd",
+                "args": [
+                    "/c",
+                    "python",
+                    "-u",
+                    "'${relativeFileDirname}/${fileBasename}'",
+                ]
             },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "dependsOn": "compile",
+            "group": "test",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
                 "focus": false,
                 "panel": "shared"
-            },
-            "problemMatcher": []
+            }
         }
     ]
 }
