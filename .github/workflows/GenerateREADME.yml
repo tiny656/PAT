@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-    - uses: actions/checkout@master
+      uses: actions/checkout@master
 
     - name: Setup python and generate README
-    - uses: actions/setup-python@v1
+      uses: actions/setup-python@v1
       with:
         python-version: '3.x'
         architecture: 'x64'
