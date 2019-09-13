@@ -1,8 +1,11 @@
 name: GenerateREADME
 on: 
   push:
+    paths:
+    - '!README.md'
     branches:
     - master
+    
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -10,7 +13,7 @@ jobs:
     - name: Checkout
       run: |
         git clone https://github.com/tiny656/PAT.git PAT
-        cd PAT
+        pwd
         
     - name: Setup python
       uses: actions/setup-python@v1
