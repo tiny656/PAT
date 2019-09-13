@@ -2,10 +2,10 @@ name: GenerateREADME
 on: 
   push:
     paths:
-      - '*'
-      - '!*.md'
+    - '*'
+    - '!*.md'
     branches:
-      - master
+    - master
 
     
 jobs:
