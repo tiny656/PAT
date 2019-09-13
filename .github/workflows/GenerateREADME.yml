@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - '*'
-      - '!README.md'
+      - '!*README.md'
     branches:
       - master
 
