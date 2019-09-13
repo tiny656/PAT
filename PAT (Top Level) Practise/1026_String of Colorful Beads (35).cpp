@@ -6,7 +6,7 @@
 using namespace std;
 
 /*
-最长不重复公共子串
+最长不重复子串
 双指针 lo, hi 维护一个不重复的最长子序列，用unordered_set进行重复元素检查
 */
 
