@@ -2,7 +2,7 @@ name: GenerateREADME
 on: 
   push:
     paths:
-    - '!README.md'
+    - '!REAMD.md'
     branches:
     - master
     
@@ -14,6 +14,7 @@ jobs:
       run: |
         git clone https://github.com/tiny656/PAT.git PAT
         pwd
+        echo pwd
         
     - name: Setup python
       uses: actions/setup-python@v1
