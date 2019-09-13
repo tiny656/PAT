@@ -10,11 +10,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup python and generate README
+    - name: Setup python
       uses: actions/setup-python@v1
       with:
         python-version: '3.x'
         architecture: 'x64'
+        
+    - name: Generate README
       run: python GenerateREADME.py
 
     - name: Push
