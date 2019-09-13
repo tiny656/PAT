@@ -10,9 +10,10 @@ jobs:
     steps:
     - name: Checkout
       run: |
-        git clone https://github.com/tiny656/PAT.git PAT
+        git clone https://github.com/tiny656/PAT.git .
         echo ${GITHUB_WORKSPACE}
         pwd
+        ls -al
         
     - name: Setup python
       uses: actions/setup-python@v1
@@ -24,6 +25,7 @@ jobs:
       run: |
         echo ${GITHUB_WORKSPACE}
         pwd
+        ls -al
         python GenerateREADME.py
 
     - name: Push
