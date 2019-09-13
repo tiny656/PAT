@@ -251,7 +251,7 @@
 | 1047 | 编程团体赛(20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1047_编程团体赛(20).py) |
 | 1048 | 数字加密(20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1048_数字加密(20).py) |
 | 1049 | 数列的片段和(20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1049_数列的片段和(20).py) |
-| 1050 | 螺旋矩阵(25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1050_螺旋矩阵(25).cpp)[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1050_螺旋矩阵(25).py) |
+| 1050 | 螺旋矩阵(25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1050_螺旋矩阵(25).cpp) |
 | 1051 | 复数乘法(15) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1051_复数乘法(15).cpp) |
 | 1052 | 卖个萌 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1052_卖个萌%20(20).cpp) |
 | 1053 | 住房空置率(20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1053_住房空置率(20).cpp) |
