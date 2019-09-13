@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
+      shell: bash
       run: |
         git clone https://github.com/tiny656/PAT.git PAT
-        setenv WORKFOLD `pwd`
+        setenv WORK_FOLDER `pwd`
         
     - name: Setup python
       uses: actions/setup-python@v1
@@ -21,13 +22,14 @@ jobs:
         
     - name: Generate README
       run: |
-        cd ${WORKFOLD}
+        cd ${WORK_FOLDER}
         python GenerateREADME.py
 
     - name: Push
       env:
         GH_TOKEN: ${{ secrets.GITHUB_ACTIONS_TOKEN }}
         GH_REF: github.com/tiny656/PAT.git
+      shell: bash
       run: |
         git config user.name "tiny656"   #修改成自己的github用户名
         git config user.email "tiny656@hotmail.com"   #修改成自己的GitHub邮箱
