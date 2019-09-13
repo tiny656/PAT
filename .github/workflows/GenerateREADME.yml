@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      run: |
-        git clone https://github.com/tiny656/PAT.git .
+      run: git clone https://github.com/tiny656/PAT.git .
         
     - name: Setup python
       uses: actions/setup-python@v1
@@ -20,8 +19,7 @@ jobs:
         architecture: 'x64'
         
     - name: Generate README
-      run: |
-        python GenerateREADME.py
+      run: python GenerateREADME.py
 
     - name: Push
       env:
