@@ -36,7 +36,7 @@ codeRules = [
 ]
 
 preContent = u'''
-## PAT Online Judge(https://pintia.cn/problem-sets) [![Build Status](https://travis-ci.org/tiny656/PAT.svg?branch=master)](https://travis-ci.org/tiny656/PAT)
+## PAT Online Judge(https://pintia.cn/problem-sets) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Ftiny656%2FPAT%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/tiny656/PAT/goto?ref=master)
 
 PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
 
