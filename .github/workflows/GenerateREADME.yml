@@ -1,6 +1,9 @@
 name: GenerateREADME
 on: 
   push:
+    paths:
+    - '*'
+    - '!README.md'
     branches:
     - master
     
@@ -11,8 +14,7 @@ jobs:
     - name: Checkout
       run: |
         git clone https://github.com/tiny656/PAT.git PAT
-        pwd
-        echo pwd
+        setenv WORKFOLD `pwd`
         
     - name: Setup python
       uses: actions/setup-python@v1
@@ -21,7 +23,9 @@ jobs:
         architecture: 'x64'
         
     - name: Generate README
-      run: python GenerateREADME.py
+      run: |
+        cd ${WORKFOLD}
+        python GenerateREADME.py
 
     - name: Push
       env:
