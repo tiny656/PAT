@@ -38,13 +38,13 @@ codeRules = [
 preContent = u'''
 ## PAT Online Judge(https://pintia.cn/problem-sets) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Ftiny656%2FPAT%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/tiny656/PAT/goto?ref=master)
 
-PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试。
+:books:PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试
 
-这个Project维护Top Level, Advance Level和Basic Level练习题的代码，其中的一些也参考过一些blog版本。
+这个Project维护大部分题库的代码，其中的一些也参考过一些blog版本
 
-大部分的代码使用`C++`和`Python`实现
+代码主要语言使用`C++`, `C`, `Python`, `Java`
 
-绝大多数代码中开头的注释写有简单的解题思路，希望对大家能有所帮助，有关研究生生活的信息，也欢迎咨询^.^。
+绝大多数代码中开头的注释写有简单的解题思路，希望对大家能有所帮助，有关研究生生活的信息，也欢迎咨询:smiley:
 
 
 ## 目录
