@@ -1,9 +1,6 @@
 name: GenerateREADME
 on: 
   push:
-    paths:
-    - '*'
-    - '!README.md'
     branches:
     - master
     
