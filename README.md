@@ -309,10 +309,6 @@
 | ID | Title | Code |
 | :--: | :--: | :--: |
 | 6-1 | 简单输出整数 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-1_简单输出整数%20(10).c) |
-| 6-10 | 阶乘计算升级版 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-10_阶乘计算升级版%20(20).c) |
-| 6-11 | 求自定类型元素序列的中位数 (25) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-11_求自定类型元素序列的中位数%20(25).c) |
-| 6-12 | 判断奇偶性 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-12_判断奇偶性%20(10).c) |
-| 6-13 | 折半查找 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-13_折半查找%20(15).c) |
 | 6-2 | 多项式求值 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-2_多项式求值%20(20).c) |
 | 6-3 | 简单求和 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-3_简单求和%20(10).c) |
 | 6-4 | 求自定类型元素的平均 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-4_求自定类型元素的平均%20(10).c) |
@@ -321,7 +317,19 @@
 | 6-7 | 统计某类完全平方数 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-7_统计某类完全平方数%20(20).c) |
 | 6-8 | 简单阶乘计算 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-8_简单阶乘计算%20(10).c) |
 | 6-9 | 统计个位数字 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-9_统计个位数字%20(15).c) |
+| 6-10 | 阶乘计算升级版 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-10_阶乘计算升级版%20(20).c) |
+| 6-11 | 求自定类型元素序列的中位数 (25) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-11_求自定类型元素序列的中位数%20(25).c) |
+| 6-12 | 判断奇偶性 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-12_判断奇偶性%20(10).c) |
+| 6-13 | 折半查找 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/6-13_折半查找%20(15).c) |
 | 7-1 | 厘米换算英尺英寸 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-1_厘米换算英尺英寸%20(15).py) |
+| 7-2 | 然后是几点 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-2_然后是几点%20(15).py) |
+| 7-3 | 逆序的三位数 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-3_逆序的三位数%20(10).py) |
+| 7-4 | BCD解密 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-4_BCD解密%20(10).py) |
+| 7-5 | 表格输出 (5) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-5_表格输出%20(5).py) |
+| 7-6 | 混合类型数据格式化输入 (5) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-6_混合类型数据格式化输入%20(5).py) |
+| 7-7 | 12-24小时制 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-7_12-24小时制%20(15).py) |
+| 7-8 | 超速判断 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-8_超速判断%20(10).py) |
+| 7-9 | 用天平找小球 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-9_用天平找小球%20(10).py) |
 | 7-10 | 计算工资 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-10_计算工资%20(15).py) |
 | 7-11 | 分段计算居民水费 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-11_分段计算居民水费%20(10).py) |
 | 7-12 | 两个数的简单计算器 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-12_两个数的简单计算器%20(10).py) |
@@ -332,7 +340,6 @@
 | 7-17 | 爬动的蠕虫 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-17_爬动的蠕虫%20(15).py) |
 | 7-18 | 二分法求多项式单根 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-18_二分法求多项式单根%20(20).py) |
 | 7-19 | 支票面额 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-19_支票面额%20(15).py) |
-| 7-2 | 然后是几点 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-2_然后是几点%20(15).py) |
 | 7-20 | 打印九九口诀表 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-20_打印九九口诀表%20(15).py) |
 | 7-21 | 求特殊方程的正整数解 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-21_求特殊方程的正整数解%20(15).py) |
 | 7-22 | 龟兔赛跑 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-22_龟兔赛跑%20(20).py) |
@@ -343,7 +350,6 @@
 | 7-27 | 冒泡法排序 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-27_冒泡法排序%20(20).py) |
 | 7-28 | 猴子选大王 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-28_猴子选大王%20(20).py) |
 | 7-29 | 删除字符串中的子串 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-29_删除字符串中的子串%20(20).py) |
-| 7-3 | 逆序的三位数 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-3_逆序的三位数%20(10).py) |
 | 7-30 | 字符串的冒泡排序 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-30_字符串的冒泡排序%20(20).py) |
 | 7-31 | 字符串循环左移 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-31_字符串循环左移%20(20).py) |
 | 7-32 | 说反话-加强版 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-32_说反话-加强版%20(20).py) |
@@ -353,19 +359,10 @@
 | 7-36 | 复数四则运算 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-36_复数四则运算%20(15).py) |
 | 7-37 | 整数分解为若干项之和 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-37_整数分解为若干项之和%20(20).py) |
 | 7-38 | 数列求和-加强版 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-38_数列求和-加强版%20(20).py) |
-| 7-4 | BCD解密 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-4_BCD解密%20(10).py) |
-| 7-5 | 表格输出 (5) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-5_表格输出%20(5).py) |
-| 7-6 | 混合类型数据格式化输入 (5) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-6_混合类型数据格式化输入%20(5).py) |
-| 7-7 | 12-24小时制 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-7_12-24小时制%20(15).py) |
-| 7-8 | 超速判断 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-8_超速判断%20(10).py) |
-| 7-9 | 用天平找小球 (10) | [`Python`](https://github.com/tiny656/PAT/blob/master/基础编程题目集/7-9_用天平找小球%20(10).py) |
 # 数据结构与算法题目集（中文）
 | ID | Title | Code |
 | :--: | :--: | :--: |
 | 6-1 | 单链表逆转 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-1_单链表逆转%20(20).c) |
-| 6-10 | 二分查找 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-10_二分查找%20(20).c) |
-| 6-11 | 先序输出叶结点 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-11_先序输出叶结点%20(15).c) |
-| 6-12 | 二叉搜索树的操作集 (30) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-12_二叉搜索树的操作集%20(30).c) |
 | 6-2 | 顺序表操作集 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-2_顺序表操作集%20(20).c) |
 | 6-3 | 求链式表的表长 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-3_求链式表的表长%20(10).c) |
 | 6-4 | 链式表的按序号查找 (10) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-4_链式表的按序号查找%20(10).c) |
@@ -374,3 +371,6 @@
 | 6-7 | 在一个数组中实现两个堆栈 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-7_在一个数组中实现两个堆栈%20(20).c) |
 | 6-8 | 求二叉树高度 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-8_求二叉树高度%20(20).c) |
 | 6-9 | 二叉树的遍历 (25) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-9_二叉树的遍历%20(25).c) |
+| 6-10 | 二分查找 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-10_二分查找%20(20).c) |
+| 6-11 | 先序输出叶结点 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-11_先序输出叶结点%20(15).c) |
+| 6-12 | 二叉搜索树的操作集 (30) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-12_二叉搜索树的操作集%20(30).c) |
