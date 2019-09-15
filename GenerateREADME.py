@@ -90,11 +90,30 @@ class Table(object):
         tbl = '# %s\n' % self.name
         tbl += '| ID | Title | Code |\n'
         tbl += '| :--: | :--: | :--: |\n'
-        for id in sorted(self.items.keys()):
+        for id in sorted(self.items.keys(), self.__idCmp):
             item = self.items[id]
             tbl += str(item) + '\n'
         return tbl
-
+    
+    def __idCmp(self, x, y):
+        if '-' in x and '-' in y:
+            a = x.split('-')
+            b = y.split('-')
+            if a[0] == b[0]:
+                if a[1].isdigit() and b[1].isdigit():
+                    return -1 if int(a[1]) < int(b[1]) else 1
+                else:
+                    return -1 if a[1] < b[1] else 1
+            else:
+                if a[0].isdigit() and b[0].isdigit():
+                    return -1 if int(a[0]) < int(b[0]) else 1
+                else:
+                    return -1 if a[0] < b[0] else 1
+        else:
+            if x.isdigit() and y.isdigit():
+                return -1 if int(x) < int(y) else 1
+            else:
+                return -1 if x < y else 1
 
 class Item(object):
     def __init__(self, id, name, code, table):
