@@ -1,5 +1,5 @@
 #coding: utf-8
-import sys, os
+import sys, os, functools
 
 # https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A%2BB%20Format%20(20).cpp
 codeRules = [
@@ -90,7 +90,7 @@ class Table(object):
         tbl = '# %s\n' % self.name
         tbl += '| ID | Title | Code |\n'
         tbl += '| :--: | :--: | :--: |\n'
-        for id in sorted(self.items.keys(), self.__idCmp):
+        for id in sorted(self.items.keys(), key = functools.cmp_to_key(self.__idCmp)):
             item = self.items[id]
             tbl += str(item) + '\n'
         return tbl
