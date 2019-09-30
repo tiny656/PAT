@@ -27,6 +27,7 @@
 | 1004 | To Buy or Not to Buy - Hard Version (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1004_To%20Buy%20or%20Not%20to%20Buy%20-%20Hard%20Version%20(35).cpp) |
 | 1005 | Programming Pattern (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1005_Programming%20Pattern%20(35).cpp) |
 | 1006 | Tree Traversals - Hard Version (35) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1006_Tree%20Traversals%20-%20Hard%20Version%20(35).py) |
+| 1007 | Red-black Tree (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1007_Red-black%20Tree%20(35).cpp) |
 | 1008 | Airline Routes (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1008_Airline%20Routes%20(35).cpp) |
 | 1009 | Triple Inversions (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1009_Triple%20Inversions%20(35).cpp) |
 | 1010 | Lehmer Code (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1010_Lehmer%20Code%20(35).cpp) |
