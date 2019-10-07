@@ -28,6 +28,7 @@ public:
     vector<int> fa, rank;
 
     UnionSet(int n) {
+        component = n;
         fa = vector<int>(n);
         rank = vector<int>(n, 0);
         for (int i = 0; i < n; i++) fa[i] = i;
