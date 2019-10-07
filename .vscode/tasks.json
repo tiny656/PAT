@@ -19,7 +19,7 @@
                     ".\\.vscode\\build.bat",
                     "'${relativeFileDirname}/${fileBasename}'",
                     ";",
-                    ".\\'${fileBasenameNoExtension}.exe'",
+                    ".\\'${fileBasenameNoExtension}.exe'"
                 ]
             },
             "group": "test",
@@ -54,10 +54,13 @@
                     "/c",
                     "python",
                     "-u",
-                    "'${relativeFileDirname}/${fileBasename}'",
+                    "'${relativeFileDirname}/${fileBasename}'"
                 ]
             },
-            "group": "test",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "presentation": {
                 "echo": true,
                 "reveal": "always",
