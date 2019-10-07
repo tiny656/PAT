@@ -377,3 +377,17 @@
 | 6-10 | 二分查找 (20) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-10_二分查找%20(20).c) |
 | 6-11 | 先序输出叶结点 (15) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-11_先序输出叶结点%20(15).c) |
 | 6-12 | 二叉搜索树的操作集 (30) | [`C`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/6-12_二叉搜索树的操作集%20(30).c) |
+| 7-1 | 最大子列和问题 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-1_最大子列和问题%20(20).py) |
+| 7-2 | 一元多项式的乘法与加法运算 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-2_一元多项式的乘法与加法运算%20(20).py) |
+| 7-3 | 树的同构 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-3_树的同构%20(25).py) |
+| 7-4 | 是否同一棵二叉搜索树 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-4_是否同一棵二叉搜索树%20(25).py) |
+| 7-5 | 堆中的路径 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-5_堆中的路径%20(25).py) |
+| 7-6 | 列出连通集 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-6_列出连通集%20(25).py) |
+| 7-7 | 六度空间 (30)  | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-7_六度空间%20(30)%20.cpp) |
+| 7-13 | 统计工龄 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-13_统计工龄%20(20).py) |
+| 7-16 | 一元多项式求导 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-16_一元多项式求导%20(20).cpp) |
+| 7-19 | 求链式线性表的倒数第K项 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-19_求链式线性表的倒数第K项%20(20).cpp) |
+| 7-50 | 畅通工程之局部最小花费问题 (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-50_畅通工程之局部最小花费问题%20(35).cpp) |
+| 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
+| 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
+| 7-53 | 两个有序序列的中位数 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-53_两个有序序列的中位数%20(25).cpp) |
