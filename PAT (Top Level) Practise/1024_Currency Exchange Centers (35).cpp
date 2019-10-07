@@ -4,8 +4,11 @@
 #include <algorithm>
 using namespace std;
 
-
-set<string> centers;
+/*
+MST 最小生成树，kruskal算法
+贪心选择已经出现过的center
+*/
+set<string> centers; 
 
 class Edge {
 public:
