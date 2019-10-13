@@ -3,6 +3,13 @@
 #include <string>
 using namespace std;
 
+/*
+dp[i][j] 表示前i个字母，删去j个字符的结果,在第j位的状态转移是s[j]是否需要删除
+dp[i][0] = 1
+dp[i][1] = dp[i-1][0] + dp[i-1][1], 如果s[i]==s[i-1],比如abb,会多一次重复计算
+dp[i][2] = dp[i-1][2] + dp[i-1][1], 分三种情况abcdee, abcede, abcde, 
+前两种会有重复计算分别是(dp[i-2][1], a|b|c|d e), (1, ed de)
+*/
 typedef long long int64;
 
 int64 dp[1000005][3];
