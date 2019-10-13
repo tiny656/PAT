@@ -385,6 +385,8 @@
 | 7-5 | 堆中的路径 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-5_堆中的路径%20(25).py) |
 | 7-6 | 列出连通集 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-6_列出连通集%20(25).py) |
 | 7-7 | 六度空间 (30)  | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-7_六度空间%20(30)%20.cpp) |
+| 7-8 | 哈利·波特的考试 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-8_哈利·波特的考试%20(25).cpp) |
+| 7-12 | 排序 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-12_排序%20(25).cpp) |
 | 7-13 | 统计工龄 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-13_统计工龄%20(20).py) |
 | 7-16 | 一元多项式求导 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-16_一元多项式求导%20(20).cpp) |
 | 7-19 | 求链式线性表的倒数第K项 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-19_求链式线性表的倒数第K项%20(20).cpp) |
