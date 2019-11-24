@@ -394,6 +394,10 @@
 | 7-14 | 电话聊天狂人 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-14_电话聊天狂人%20(25).cpp) |
 | 7-16 | 一元多项式求导 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-16_一元多项式求导%20(20).cpp) |
 | 7-19 | 求链式线性表的倒数第K项 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-19_求链式线性表的倒数第K项%20(20).cpp) |
+| 7-21 | 求前缀表达式的值 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-21_求前缀表达式的值%20(25).py) |
+| 7-23 | 还原二叉树 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-23_还原二叉树%20(25).py) |
+| 7-24 | 树种统计 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-24_树种统计%20(25).cpp) |
+| 7-25 | 朋友圈 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-25_朋友圈%20(25).cpp) |
 | 7-50 | 畅通工程之局部最小花费问题 (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-50_畅通工程之局部最小花费问题%20(35).cpp) |
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
 | 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
