@@ -401,6 +401,9 @@
 | 7-23 | 还原二叉树 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-23_还原二叉树%20(25).py) |
 | 7-24 | 树种统计 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-24_树种统计%20(25).cpp) |
 | 7-25 | 朋友圈 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-25_朋友圈%20(25).cpp) |
+| 7-26 | Windows消息队列 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-26_Windows消息队列%20(25).cpp) |
+| 7-28 | 搜索树判断 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-28_搜索树判断%20(25).cpp) |
+| 7-29 | 修理牧场 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-29_修理牧场%20(25).cpp) |
 | 7-50 | 畅通工程之局部最小花费问题 (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-50_畅通工程之局部最小花费问题%20(35).cpp) |
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
 | 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
