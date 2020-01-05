@@ -63,11 +63,11 @@ int main() {
     Node *root = NULL;
     for (int i = 0; i < n; i++) {
         cin >> preOrder[i];
-        root = BuildTree(root, preOrder[i]);
+        root = BuildTree(root, preOrder[i]); // follow BST rules to build tree
     }
     vector<int> calcPreOrder1, calcPreOrder2;
-    GetPreOrder(root, false, calcPreOrder1);
-    GetPreOrder(root, true, calcPreOrder2);
+    GetPreOrder(root, false, calcPreOrder1); // calc non mirror pre order
+    GetPreOrder(root, true, calcPreOrder2); // calc mirror pre order
     if (IsSameVector(preOrder, calcPreOrder1)) {
         cout << "YES" << endl;
         PrintPostOrder(root, isFirstItem, false);
