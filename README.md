@@ -393,8 +393,11 @@
 | 7-13 | 统计工龄 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-13_统计工龄%20(20).py) |
 | 7-14 | 电话聊天狂人 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-14_电话聊天狂人%20(25).cpp) |
 | 7-16 | 一元多项式求导 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-16_一元多项式求导%20(20).cpp) |
+| 7-17 | 汉诺塔的非递归实现 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-17_汉诺塔的非递归实现%20(25).cpp) |
+| 7-18 | 银行业务队列简单模拟 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-18_银行业务队列简单模拟%20(25).cpp) |
 | 7-19 | 求链式线性表的倒数第K项 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-19_求链式线性表的倒数第K项%20(20).cpp) |
 | 7-21 | 求前缀表达式的值 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-21_求前缀表达式的值%20(25).py) |
+| 7-22 | 堆栈模拟队列 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-22_堆栈模拟队列%20(25).cpp) |
 | 7-23 | 还原二叉树 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-23_还原二叉树%20(25).py) |
 | 7-24 | 树种统计 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-24_树种统计%20(25).cpp) |
 | 7-25 | 朋友圈 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-25_朋友圈%20(25).cpp) |
