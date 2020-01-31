@@ -407,6 +407,13 @@
 | 7-30 | 目录树 (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-30_目录树%20(30).cpp) |
 | 7-31 | 笛卡尔树 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-31_笛卡尔树%20(25).cpp) |
 | 7-32 | 哥尼斯堡的“七桥问题” (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-32_哥尼斯堡的“七桥问题”%20(25).cpp) |
+| 7-34 | 任务调度的合理性 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-34_任务调度的合理性%20(25).cpp) |
+| 7-35 | 城市间紧急救援 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-35_城市间紧急救援%20(25).cpp) |
+| 7-36 | 社交网络图中结点的“重要性”计算 (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-36_社交网络图中结点的“重要性”计算%20(30).cpp) |
+| 7-38 | 寻找大富翁 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-38_寻找大富翁%20(25).cpp) |
+| 7-39 | 魔法优惠券 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-39_魔法优惠券%20(25).cpp) |
+| 7-40 | 奥运排行榜 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-40_奥运排行榜%20(25).cpp) |
+| 7-49 | 打印学生选课清单 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-49_打印学生选课清单%20(25).cpp) |
 | 7-50 | 畅通工程之局部最小花费问题 (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-50_畅通工程之局部最小花费问题%20(35).cpp) |
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
 | 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
