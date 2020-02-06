@@ -3,7 +3,6 @@
 #include <unordered_map>
 using namespace std;
 
-
 int main() {
     int n, p;
     string key;
