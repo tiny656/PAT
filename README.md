@@ -418,6 +418,8 @@
 | 7-41 | PAT排名汇总 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-41_PAT排名汇总%20(25).cpp) |
 | 7-42 | 整型关键字的散列映射 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-42_整型关键字的散列映射%20(25).cpp) |
 | 7-43 | 字符串关键字的散列映射 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-43_字符串关键字的散列映射%20(25).cpp) |
+| 7-45 | 航空公司VIP客户查询 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-45_航空公司VIP客户查询%20(25).cpp) |
+| 7-47 | 打印选课学生名单 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-47_打印选课学生名单%20(25).cpp) |
 | 7-49 | 打印学生选课清单 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-49_打印学生选课清单%20(25).cpp) |
 | 7-50 | 畅通工程之局部最小花费问题 (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-50_畅通工程之局部最小花费问题%20(35).cpp) |
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
