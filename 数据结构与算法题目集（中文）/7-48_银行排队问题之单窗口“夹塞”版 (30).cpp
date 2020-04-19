@@ -14,6 +14,7 @@ public:
 };
 
 int main() {
+    ios::sync_with_stdio(false);
     string name;
     int n, m, k;
     cin >> n >> m;
