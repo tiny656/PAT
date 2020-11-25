@@ -420,6 +420,7 @@
 | 7-43 | 字符串关键字的散列映射 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-43_字符串关键字的散列映射%20(25).cpp) |
 | 7-44 | 基于词频的文件相似度 (30) | [`Python`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-44_基于词频的文件相似度%20(30).py) |
 | 7-45 | 航空公司VIP客户查询 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-45_航空公司VIP客户查询%20(25).cpp) |
+| 7-46 | 新浪微博热门话题 (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-46_新浪微博热门话题%20(30).cpp) |
 | 7-47 | 打印选课学生名单 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-47_打印选课学生名单%20(25).cpp) |
 | 7-48 | 银行排队问题之单窗口“夹塞”版 (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-48_银行排队问题之单窗口“夹塞”版%20(30).cpp) |
 | 7-49 | 打印学生选课清单 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-49_打印学生选课清单%20(25).cpp) |
