@@ -31,6 +31,7 @@
 | 1008 | Airline Routes (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1008_Airline%20Routes%20(35).cpp) |
 | 1009 | Triple Inversions (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1009_Triple%20Inversions%20(35).cpp) |
 | 1010 | Lehmer Code (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1010_Lehmer%20Code%20(35).cpp) |
+| 1011 | Cut Rectangles (35) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1011_Cut%20Rectangles%20(35).py) |
 | 1012 | Greedy Snake (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1012_Greedy%20Snake%20(35).cpp) |
 | 1013 | Image Segmentation (35) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1013_Image%20Segmentation%20(35).py) |
 | 1014 | Circles of Friends (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1014_Circles%20of%20Friends%20(35).cpp) |
@@ -216,7 +217,7 @@
 | 1008 | 数组元素循环右移问题 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1008_数组元素循环右移问题%20(20).cpp) |
 | 1009 | 说反话 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1009_说反话%20(20).cpp) |
 | 1010 | 一元多项式求导 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1010_一元多项式求导%20(25).cpp) |
-| 1011 | Cut Rectangles (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_Cut%20Rectangles%20(35).cpp)[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_Cut%20Rectangles%20(35).py) |
+| 1011 | A+B和C (15) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_A+B和C%20(15).cpp) |
 | 1012 | 数字分类 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1012_数字分类%20(20).cpp) |
 | 1013 | 数素数 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1013_数素数%20(20).cpp) |
 | 1014 | 福尔摩斯的约会 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1014_福尔摩斯的约会%20(20).cpp) |
