@@ -216,7 +216,7 @@
 | 1008 | 数组元素循环右移问题 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1008_数组元素循环右移问题%20(20).cpp) |
 | 1009 | 说反话 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1009_说反话%20(20).cpp) |
 | 1010 | 一元多项式求导 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1010_一元多项式求导%20(25).cpp) |
-| 1011 | A+B和C (15) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_A+B和C%20(15).cpp) |
+| 1011 | Cut Rectangles (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_Cut%20Rectangles%20(35).cpp)[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1011_Cut%20Rectangles%20(35).py) |
 | 1012 | 数字分类 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1012_数字分类%20(20).cpp) |
 | 1013 | 数素数 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1013_数素数%20(20).cpp) |
 | 1014 | 福尔摩斯的约会 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1014_福尔摩斯的约会%20(20).cpp) |
