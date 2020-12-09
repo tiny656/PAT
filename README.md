@@ -41,6 +41,7 @@
 | 1018 | Subnumbers (35) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1018_Subnumbers%20(35).py) |
 | 1019 | Separate the Animals (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1019_Separate%20the%20Animals%20(35).cpp) |
 | 1020 | Delete At Most Two Characters (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1020_Delete%20At%20Most%20Two%20Characters%20(35).cpp) |
+| 1021 | Safe Fruit (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1021_Safe%20Fruit%20(35).cpp) |
 | 1022 | Werewolf (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1022_Werewolf%20(35).cpp) |
 | 1023 | The Best Polygon (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1023_The%20Best%20Polygon%20(35).cpp) |
 | 1024 | Currency Exchange Centers (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1024_Currency%20Exchange%20Centers%20(35).cpp) |
