@@ -304,6 +304,11 @@
 | 1093 | 字符串A+B (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1093_字符串A+B%20(20).cpp) |
 | 1094 | 谷歌的招聘 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1094_谷歌的招聘%20(20).cpp) |
 | 1095 | 解码PAT准考证 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1095_解码PAT准考证%20(25).cpp) |
+| 1096 | 大美数 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1096_大美数%20(25).py) |
+| 1097 | 矩阵行平移 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1097_矩阵行平移%20(20).py) |
+| 1098 | 岩洞施工 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1098_岩洞施工%20(20).py) |
+| 1099 | 性感素数 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1099_性感素数%20(20).py) |
+| 1100 | 校庆 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1100_校庆%20(25).py) |
 # 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
