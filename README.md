@@ -206,6 +206,14 @@
 | 1153 | Decode Registration Card of PAT (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1153_Decode%20Registration%20Card%20of%20PAT%20(25).cpp) |
 | 1154 | Vertex Coloring (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1154_Vertex%20Coloring%20(25).cpp) |
 | 1155 | Heap Paths (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1155_Heap%20Paths%20(30).cpp) |
+| 1156 | Sexy Primes (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1156_Sexy%20Primes%20(20).py) |
+| 1157 | Anniversary (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1157_Anniversary%20(25).py) |
+| 1158 | Telefraud Detection (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1158_Telefraud%20Detection%20(25).cpp) |
+| 1160 | Forever (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1160_Forever%20(20).py) |
+| 1161 | Merging Linked Lists (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1161_Merging%20Linked%20Lists%20(25).cpp) |
+| 1162 | Postfix Expression (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1162_Postfix%20Expression%20(25).cpp) |
+| 1164 | Good in C (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1164_Good%20in%20C%20(20).py) |
+| 1165 | Block Reversing (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1165_Block%20Reversing%20(25).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
