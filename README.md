@@ -309,6 +309,16 @@
 | 1098 | 岩洞施工 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1098_岩洞施工%20(20).py) |
 | 1099 | 性感素数 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1099_性感素数%20(20).py) |
 | 1100 | 校庆 (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1100_校庆%20(25).py) |
+| 1101 | B是A的多少倍 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1101_B是A的多少倍%20(15).py) |
+| 1102 | 教超冠军卷 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1102_教超冠军卷%20(20).py) |
+| 1103 | 缘分数 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1103_缘分数%20(20).py) |
+| 1104 | 天长地久 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1104_天长地久%20(20).py) |
+| 1105 | 链表合并 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1105_链表合并%20(25).cpp) |
+| 1106 | 2019数列 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1106_2019数列%20(15).py) |
+| 1107 | 老鼠爱大米 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1107_老鼠爱大米%20(20).py) |
+| 1108 | String复读机 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1108_String复读机%20(20).py) |
+| 1109 | 擅长C (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1109_擅长C%20(20).py) |
+| 1110 | 区块反转 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practise%20（中文）/1110_区块反转%20(25).cpp) |
 # 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
