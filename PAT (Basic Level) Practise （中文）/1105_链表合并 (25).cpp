@@ -8,12 +8,22 @@ using namespace std;
 
 struct Node {
     int address;
-    int prev;
     int data;
     int next;
 };
 
 unordered_map<int, Node> Nodes;
+
+int Reverse(int head) {
+    int prev = -1, cur = head;
+    while (cur != -1) {
+        int next = Nodes[cur].next;
+        Nodes[cur].next = prev;
+        prev = cur;
+        cur = next;
+    }
+    return prev;
+}
 
 int GetSize(int addr) {
     int count = 0;
@@ -23,7 +33,7 @@ int GetSize(int addr) {
 
 int main() {
     ios::sync_with_stdio(false);
-    int L1_root, L2_root, p, q;
+    int L1_root, L2_root;
     int n;
     cin >> L1_root >> L2_root >> n;
     for (int i = 0; i < n; i++) {
@@ -33,25 +43,18 @@ int main() {
     }
 
     if (GetSize(L1_root) < GetSize(L2_root)) swap(L1_root, L2_root);
-    
-    p = L2_root;
-    int L2_prev = -1;
-    while (p != -1) {
-        Nodes[p].prev = L2_prev;
-        L2_prev = p;
-        p = Nodes[p].next;
-    }
+    L2_root = Reverse(L2_root);
 
     int count = 0;
     vector<Node> res;
-    p = L1_root, q = L2_prev;
+    int p = L1_root, q = L2_root;
     while (p != -1) {
         count++;
         res.push_back(Nodes[p]);
         p = Nodes[p].next;
         if (count % 2 == 0 && q != -1) {
             res.push_back(Nodes[q]);
-            q = Nodes[q].prev;
+            q = Nodes[q].next;
         }
     }
 
