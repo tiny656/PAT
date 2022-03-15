@@ -214,6 +214,7 @@
 | 1162 | Postfix Expression (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1162_Postfix%20Expression%20(25).cpp) |
 | 1164 | Good in C (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1164_Good%20in%20C%20(20).py) |
 | 1165 | Block Reversing (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1165_Block%20Reversing%20(25).cpp) |
+| 1166 | Summit (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1166_Summit%20(25).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
