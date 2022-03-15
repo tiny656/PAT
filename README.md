@@ -209,6 +209,7 @@
 | 1156 | Sexy Primes (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1156_Sexy%20Primes%20(20).py) |
 | 1157 | Anniversary (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1157_Anniversary%20(25).py) |
 | 1158 | Telefraud Detection (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1158_Telefraud%20Detection%20(25).cpp) |
+| 1159 | Structure of a Binary Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1159_Structure%20of%20a%20Binary%20Tree%20(30).cpp) |
 | 1160 | Forever (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1160_Forever%20(20).py) |
 | 1161 | Merging Linked Lists (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1161_Merging%20Linked%20Lists%20(25).cpp) |
 | 1162 | Postfix Expression (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1162_Postfix%20Expression%20(25).cpp) |
