@@ -1,19 +1,20 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
 #include <queue>
 using namespace std;
 
-struct Node {
-    int left;
-    int right;
+class Node {
+public:
+    Node* left;
+    Node* right;
     int data;
+
+    Node(int data) : data(data), left(nullptr), right(nullptr) {}
 };
 
 vector<int> leftMin, rightMin;
-unordered_map<int, Node> nodes;
 
-int Build(int lo, int hi, const vector<int> &in) {
+Node* Build(int lo, int hi, const vector<int> &in) {
     // maintain the minimum array (left -> right) as leftMin
     // maintain the minimum array (right -> left) as rightMin
     for (int i = lo; i <= hi; i++) {
@@ -31,31 +32,26 @@ int Build(int lo, int hi, const vector<int> &in) {
         }
     }
 
-
-    Node node;
-    node.left = node.right = -1;
+    Node* node = new Node(in[pos]);
 
     int leftCount = pos - lo;
     int rightCount = hi - pos;
-    if (leftCount > 0) node.left = Build(lo, pos-1, in);
-    if (rightCount > 0) node.right = Build(pos+1, hi, in);
+    if (leftCount > 0) node->left = Build(lo, pos-1, in);
+    if (rightCount > 0) node->right = Build(pos+1, hi, in);
 
-    node.data = in[pos];
-    nodes[node.data] = node;
-
-    return node.data;
+    return node;
 }
 
-void PrintLevelOrder(int root) {
+void PrintLevelOrder(Node* root) {
     vector<int> ans;
-    queue<int> q;
+    queue<Node*> q;
     q.push(root);
     while (!q.empty()) {
-        Node t = nodes[q.front()];
-        ans.push_back(t.data);
+        Node* t = q.front();
+        ans.push_back(t->data);
         q.pop();
-        if (t.left != -1) q.push(t.left);
-        if (t.right != -1) q.push(t.right);
+        if (t->left != nullptr) q.push(t->left);
+        if (t->right != nullptr) q.push(t->right);
     }
 
     cout << ans[0];
@@ -67,17 +63,19 @@ void PrintLevelOrder(int root) {
 
 int main() {
     ios::sync_with_stdio(false);
+
     int n;
     cin >> n;
+
     vector<int> in(n);
     leftMin.resize(n);
     rightMin.resize(n);
+
     for (int i = 0; i < n; i++) {
         cin >> in[i];
     }
 
-    int root = Build(0, in.size()-1, in);
-
+    Node* root = Build(0, in.size()-1, in);
     PrintLevelOrder(root);
 
     return 0;
