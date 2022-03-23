@@ -48,6 +48,7 @@
 | 1025 | Keep at Most 100 Characters (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1025_Keep%20at%20Most%20100%20Characters%20(35).cpp) |
 | 1026 | String of Colorful Beads (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1026_String%20of%20Colorful%20Beads%20(35).cpp) |
 | 1027 | Larry and Inversions (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1027_Larry%20and%20Inversions%20(35).cpp) |
+| 1029 | Array Cutting Score (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1029_Array%20Cutting%20Score%20(35).cpp) |
 # Advance-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
