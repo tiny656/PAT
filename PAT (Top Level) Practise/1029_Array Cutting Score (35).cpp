@@ -32,8 +32,7 @@ int64 c[maxn][maxn];
 vector<int64> a, sum;
 
 //快速幂 a^n % p
-int64 pow(int64 a, int64 n, int64 p)    
-{
+int64 pow(int64 a, int64 n, int64 p) {
     int64 ans = 1;
     while(n > 0)
     {
@@ -45,8 +44,7 @@ int64 pow(int64 a, int64 n, int64 p)
 }
 
 //计算C(m, n)
-void calcC(int m, int n, int64 p)
-{
+void calcC(int m, int n, int64 p) {
     for (int i = 0; i <= m; i++)
     for (int j = 0; j <= min(i, n); j++) {
         if (j == 0|| i == j) c[i][j] = 1;
