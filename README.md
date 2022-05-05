@@ -50,6 +50,7 @@
 | 1027 | Larry and Inversions (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1027_Larry%20and%20Inversions%20(35).cpp) |
 | 1028 | Do All Roads Lead to Rome (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1028_Do%20All%20Roads%20Lead%20to%20Rome%20(35).cpp) |
 | 1029 | Array Cutting Score (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1029_Array%20Cutting%20Score%20(35).cpp) |
+| 1030 | Beautiful Subsequence (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practise/1030_Beautiful%20Subsequence%20(35).cpp) |
 # Advance-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
