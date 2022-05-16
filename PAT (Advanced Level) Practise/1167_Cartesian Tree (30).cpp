@@ -12,27 +12,19 @@ public:
     Node(int data) : data(data), left(nullptr), right(nullptr) {}
 };
 
-vector<int> leftMin, rightMin;
-
 Node* Build(int lo, int hi, const vector<int> &in) {
-    // maintain the minimum array (left -> right) as leftMin
-    // maintain the minimum array (right -> left) as rightMin
-    for (int i = lo; i <= hi; i++) {
-        leftMin[i] = i == lo ? in[lo] : min(leftMin[i-1], in[i]);
-        rightMin[hi+lo-i] = i == lo ? in[hi] : min(rightMin[hi+lo-i+1], in[hi+lo-i]);
-    }
+    // root pos in inroder array of cartesian tree meets the below condition
+    // in[pos] is the minimal element in the range(lo, hi), so root node is on the pos. 
 
-    int pos;
-    for (int i = lo; i <= hi; i++) {
-        // root pos in inroder array of cartesian tree meets the below condition
-        // leftMin[pos-1] > a[pos] < rightMin[pos+1], so root node is on the pos. 
-        if ((i <= lo || in[i] < leftMin[i-1]) && (i >= hi || in[i] < rightMin[i+1])) {
+    int val = in[lo], pos = lo;
+    for (int i = lo+1; i <= hi; i++) {
+        if (in[i] < val) {
             pos = i;
-            break;
+            val = in[i];
         }
     }
 
-    Node* node = new Node(in[pos]);
+    Node* node = new Node(val);
 
     int leftCount = pos - lo;
     int rightCount = hi - pos;
@@ -68,8 +60,6 @@ int main() {
     cin >> n;
 
     vector<int> in(n);
-    leftMin.resize(n);
-    rightMin.resize(n);
 
     for (int i = 0; i < n; i++) {
         cin >> in[i];
