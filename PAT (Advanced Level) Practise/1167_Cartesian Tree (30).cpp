@@ -16,6 +16,7 @@ Node* Build(int lo, int hi, const vector<int> &in) {
     // root pos in inroder array of cartesian tree meets the below condition
     // in[pos] is the minimal element in the range(lo, hi), so root node is on the pos. 
 
+	// TODO: RMQ can be optimized with Sparse Table
     int val = in[lo], pos = lo;
     for (int i = lo+1; i <= hi; i++) {
         if (in[i] < val) {
