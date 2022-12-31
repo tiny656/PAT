@@ -17,6 +17,7 @@
 - [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
 - [基础编程题目集](#基础编程题目集)
 - [数据结构与算法题目集(中文)](#数据结构与算法题目集中文)
+- [团体程序设计天梯赛-练习集](#团体程序设计天梯赛-练习集)
 
 # Top-Level
 | ID | Title | Code |
@@ -461,3 +462,101 @@
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
 | 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
 | 7-53 | 两个有序序列的中位数 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-53_两个有序序列的中位数%20(25).cpp) |
+# 团体程序设计天梯赛-练习集
+| ID | Title | Code |
+| :--: | :--: | :--: |
+| L1-001 | Hello World | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-001_Hello%20World.py) |
+| L1-002 | 打印沙漏 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-002_打印沙漏.py) |
+| L1-003 | 个位数统计 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-003_个位数统计.py) |
+| L1-004 | 计算摄氏温度 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-004_计算摄氏温度.py) |
+| L1-005 | 考试座位号 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-005_考试座位号.py) |
+| L1-006 | 连续因子 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-006_连续因子.py) |
+| L1-007 | 念数字 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-007_念数字.py) |
+| L1-008 | 求整数段和 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-008_求整数段和.py) |
+| L1-009 | N个数求和 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-009_N个数求和.py) |
+| L1-010 | 比较大小 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-010_比较大小.py) |
+| L1-011 | A-B | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-011_A-B.py) |
+| L1-012 | 计算指数 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-012_计算指数.py) |
+| L1-013 | 计算阶乘和 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-013_计算阶乘和.py) |
+| L1-014 | 简单题 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-014_简单题.py) |
+| L1-015 | 跟奥巴马一起画方块 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-015_跟奥巴马一起画方块.py) |
+| L1-016 | 查验身份证 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-016_查验身份证.py) |
+| L1-017 | 到底有多二 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-017_到底有多二.py) |
+| L1-018 | 大笨钟 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-018_大笨钟.py) |
+| L1-019 | 谁先倒 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-019_谁先倒.py) |
+| L1-020 | 帅到没朋友 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-020_帅到没朋友.py) |
+| L1-021 | 重要的话说三遍 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-021_重要的话说三遍.py) |
+| L1-022 | 奇偶分家 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-022_奇偶分家.py) |
+| L1-023 | 输出GPLT | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-023_输出GPLT.py) |
+| L1-024 | 后天 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-024_后天.py) |
+| L1-025 | 正整数A+B | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-025_正整数A+B.py) |
+| L1-026 | I Love GPLT | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-026_I%20Love%20GPLT.py) |
+| L1-027 | 出租 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-027_出租.py) |
+| L1-028 | 判断素数 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-028_判断素数.py) |
+| L1-029 | 是不是太胖了 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-029_是不是太胖了.py) |
+| L1-030 | 一帮一 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-030_一帮一.py) |
+| L1-031 | 到底是不是太胖了 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-031_到底是不是太胖了.py) |
+| L1-032 | Left-pad | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-032_Left-pad.py) |
+| L1-033 | 出生年 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-033_出生年.py) |
+| L1-034 | 点赞 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-034_点赞.py) |
+| L1-035 | 情人节 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-035_情人节.py) |
+| L1-036 | A乘以B | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-036_A乘以B.py) |
+| L1-037 | A除以B | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-037_A除以B.py) |
+| L1-038 | 新世界 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-038_新世界.py) |
+| L1-039 | 古风排版 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-039_古风排版.py) |
+| L1-040 | 最佳情侣身高差 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-040_最佳情侣身高差.py) |
+| L1-041 | 寻找250 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-041_寻找250.py) |
+| L1-042 | 日期格式化 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-042_日期格式化.py) |
+| L1-043 | 阅览室 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-043_阅览室.py) |
+| L1-044 | 稳赢 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-044_稳赢.py) |
+| L1-045 | 宇宙无敌大招呼 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-045_宇宙无敌大招呼.py) |
+| L1-046 | 整除光棍 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-046_整除光棍.py) |
+| L1-047 | 装睡 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-047_装睡.py) |
+| L1-048 | 矩阵A乘以B | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-048_矩阵A乘以B.py) |
+| L1-049 | 天梯赛座位分配 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-049_天梯赛座位分配.py) |
+| L1-050 | 倒数第N个字符串 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-050_倒数第N个字符串.py) |
+| L1-051 | 打折 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-051_打折.py) |
+| L1-052 | 2018我们要赢 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-052_2018我们要赢.py) |
+| L1-053 | 电子汪 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-053_电子汪.py) |
+| L1-054 | 福到了 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-054_福到了.py) |
+| L1-055 | 谁是赢家 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-055_谁是赢家.py) |
+| L1-056 | 猜数字 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-056_猜数字.py) |
+| L1-057 | PTA使我精神焕发 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-057_PTA使我精神焕发.py) |
+| L1-058 | 6翻了 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-058_6翻了.py) |
+| L1-059 | 敲笨钟 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-059_敲笨钟.py) |
+| L1-060 | 心理阴影面积 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-060_心理阴影面积.py) |
+| L1-061 | 新胖子公式 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-061_新胖子公式.py) |
+| L1-062 | 幸运彩票 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-062_幸运彩票.py) |
+| L1-063 | 吃鱼还是吃肉 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-063_吃鱼还是吃肉.py) |
+| L1-064 | 估值一亿的AI核心代码 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-064_估值一亿的AI核心代码.py) |
+| L1-065 | 嫑废话上代码 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-065_嫑废话上代码.py) |
+| L1-066 | 猫是液体 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-066_猫是液体.py) |
+| L1-067 | 洛希极限 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-067_洛希极限.py) |
+| L1-068 | 调和平均 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-068_调和平均.py) |
+| L1-069 | 胎压监测 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-069_胎压监测.py) |
+| L1-070 | 吃火锅 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-070_吃火锅.py) |
+| L1-071 | 前世档案 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-071_前世档案.py) |
+| L1-072 | 刮刮彩票 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-072_刮刮彩票.py) |
+| L1-073 | 人与神 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-073_人与神.py) |
+| L1-074 | 两小时学完C语言 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-074_两小时学完C语言.py) |
+| L1-075 | 强迫症 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-075_强迫症.py) |
+| L1-076 | 降价提醒机器人 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-076_降价提醒机器人.py) |
+| L1-077 | 大笨钟的心情 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-077_大笨钟的心情.py) |
+| L1-078 | 吉老师的回归 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-078_吉老师的回归.py) |
+| L1-079 | 天梯赛的善良 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-079_天梯赛的善良.py) |
+| L1-080 | 乘法口诀数列 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-080_乘法口诀数列.py) |
+| L1-081 | 今天我要赢 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-081_今天我要赢.py) |
+| L1-082 | 种钻石 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-082_种钻石.py) |
+| L1-083 | 谁能进图书馆 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-083_谁能进图书馆.py) |
+| L1-084 | 拯救外星人 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-084_拯救外星人.py) |
+| L1-085 | 试试手气 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-085_试试手气.py) |
+| L1-086 | 斯德哥尔摩火车上的题 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-086_斯德哥尔摩火车上的题.py) |
+| L1-087 | 机工士姆斯塔迪奥 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-087_机工士姆斯塔迪奥.py) |
+| L1-088 | 静静的推荐 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-088_静静的推荐.py) |
+| L2-002 | 链表去重 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-002_链表去重.cpp) |
+| L2-003 | 月饼 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-003_月饼.cpp) |
+| L2-004 | 这是二叉搜索树吗？ | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-004_这是二叉搜索树吗？.cpp) |
+| L2-005 | 集合相似度 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-005_集合相似度.cpp) |
+| L2-006 | 树的遍历 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-006_树的遍历.cpp) |
+| L2-007 | 家庭房产 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-007_家庭房产.cpp) |
+| L2-008 | 最长对称子串 | [`C`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-008_最长对称子串.c) |
