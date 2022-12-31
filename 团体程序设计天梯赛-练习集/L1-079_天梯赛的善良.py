@@ -1,0 +1,5 @@
+n = int(input())
+power = list(map(int, input().split()))
+minPower, maxPower = min(power), max(power)
+print(min(power), power.count(minPower))
+print(max(power), power.count(maxPower))
