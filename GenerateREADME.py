@@ -1,21 +1,21 @@
 #coding: utf-8
-import sys, os, functools
+import os, functools
 
-# https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practise/1001_A%2BB%20Format%20(20).cpp
+# https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1001_A%2BB%20Format%20(20).cpp
 codeRules = [
     {
         'name': 'Top-Level',
-        'folderName': 'PAT (Top Level) Practise',
+        'folderName': 'PAT (Top Level) Practice',
         'url': '',
     },
     {
         'name': 'Advance-Level',
-        'folderName': 'PAT (Advanced Level) Practise',
+        'folderName': 'PAT (Advanced Level) Practice',
         'url': '',
     },
     {
         'name': 'Basic-Level',
-        'folderName': u'PAT (Basic Level) Practise （中文）',
+        'folderName': u'PAT (Basic Level) Practice （中文）',
         'url': '',
     },
     {
@@ -43,11 +43,11 @@ codeRules = [
 preContent = u'''
 ## PAT Online Judge(https://pintia.cn/problem-sets) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Ftiny656%2FPAT%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/tiny656/PAT/goto?ref=master)
 
-:books:PAT是浙江大学计算机程序设计能力测试系统，被用于研究生机试和PAT证书资格测试
+:books:PAT是浙江大学计算机程序设计能力测试系统, 被用于研究生机试和PAT证书资格测试
 
-这个Project维护大部分题库的代码，其中的一些也参考过一些blog版本
+这个Project维护大部分题库的代码, 其中的一些也参考过一些blog版本
 
-代码主要语言使用`C++`, `C`, `Python`, `Java`
+代码主要语言使用`C++`, `C`, `Python`, `Java`, `Go`
 
 绝大多数代码中开头的注释写有简单的解题思路，希望对大家能有所帮助，有关研究生生活的信息，也欢迎咨询:smiley:
 
@@ -67,6 +67,7 @@ class CodeType:
     PYTHON = 2
     JAVA = 4
     C = 8
+    GO = 16
 
     @staticmethod
     def getCodeType(ext):
@@ -78,6 +79,8 @@ class CodeType:
             return CodeType.JAVA
         elif ext == '.c':
             return CodeType.C
+        elif ext == '.go':
+            return CodeType.GO
 
 class Table(object):
     def __init__(self, folderName, name, url):
@@ -140,6 +143,8 @@ class Item(object):
             codeUrl += '[`Java`](%s/%s_%s.java)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.C:
             codeUrl += '[`C`](%s/%s_%s.c)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
+        if self.code & CodeType.GO:
+            codeUrl += '[`GO`](%s/%s_%s.go)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         ret = u'| %s | %s | %s |' % (self.id, self.name, codeUrl)
         return ret
 
@@ -151,7 +156,7 @@ def buildREADME():
         folderName = codeRule.get('folderName')
         baseUrl = codeRule.get('url')
         table = Table(folderName, name, baseUrl)
-        for path, dirs, files in os.walk(folderName):
+        for _, _, files in os.walk(folderName):
             for filename in files:
                 id, problem = filename.split('_')
                 problem, ext = os.path.splitext(problem)
