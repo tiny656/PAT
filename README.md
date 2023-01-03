@@ -465,10 +465,10 @@
 # 团体程序设计天梯赛-练习集
 | ID | Title | Code |
 | :--: | :--: | :--: |
-| L1-001 | Hello World | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-001_Hello%20World.py)[`GO`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-001_Hello%20World.go) |
+| L1-001 | Hello World | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-001_Hello%20World.py)[`Go`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-001_Hello%20World.go) |
 | L1-002 | 打印沙漏 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-002_打印沙漏.py) |
 | L1-003 | 个位数统计 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-003_个位数统计.py) |
-| L1-004 | 计算摄氏温度 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-004_计算摄氏温度.py)[`GO`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-004_计算摄氏温度.go) |
+| L1-004 | 计算摄氏温度 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-004_计算摄氏温度.py)[`Go`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-004_计算摄氏温度.go) |
 | L1-005 | 考试座位号 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-005_考试座位号.py) |
 | L1-006 | 连续因子 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-006_连续因子.py) |
 | L1-007 | 念数字 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-007_念数字.py) |
