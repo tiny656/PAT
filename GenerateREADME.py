@@ -144,7 +144,7 @@ class Item(object):
         if self.code & CodeType.C:
             codeUrl += '[`C`](%s/%s_%s.c)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         if self.code & CodeType.GO:
-            codeUrl += '[`GO`](%s/%s_%s.go)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
+            codeUrl += '[`Go`](%s/%s_%s.go)' % (githubUrl, self.id, self.name.replace(' ', '%20'))
         ret = u'| %s | %s | %s |' % (self.id, self.name, codeUrl)
         return ret
 
