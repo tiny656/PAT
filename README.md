@@ -553,6 +553,7 @@
 | L1-086 | 斯德哥尔摩火车上的题 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-086_斯德哥尔摩火车上的题.py) |
 | L1-087 | 机工士姆斯塔迪奥 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-087_机工士姆斯塔迪奥.py) |
 | L1-088 | 静静的推荐 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-088_静静的推荐.py) |
+| L2-001 | 紧急救援 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-001_紧急救援.cpp) |
 | L2-002 | 链表去重 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-002_链表去重.cpp) |
 | L2-003 | 月饼 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-003_月饼.cpp) |
 | L2-004 | 这是二叉搜索树吗？ | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-004_这是二叉搜索树吗？.cpp) |
