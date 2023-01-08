@@ -75,7 +75,7 @@ int main() {
             if (sm.size() > 0) {
                 if (i == 0) cout << (nodes[atoi(sm[1].str().c_str())].parent == -1 ? "Yes" : "No") << endl;
                 if (i == 1) {
-                    // silblings means same level and same parent
+                    // siblings means same level and same parent
                     Node a = nodes[atoi(sm[1].str().c_str())];
                     Node b = nodes[atoi(sm[2].str().c_str())];
                     cout << (a.level == b.level && a.parent == b.parent ? "Yes" : "No") << endl;
