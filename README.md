@@ -562,5 +562,6 @@
 | L2-007 | 家庭房产 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-007_家庭房产.cpp) |
 | L2-008 | 最长对称子串 | [`C`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-008_最长对称子串.c) |
 | L2-009 | 抢红包 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-009_抢红包.cpp) |
+| L2-010 | 排座位 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-010_排座位.cpp) |
 | L2-011 | 玩转二叉树 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-011_玩转二叉树.cpp) |
 | L2-012 | 关于堆的判断 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-012_关于堆的判断.cpp) |
