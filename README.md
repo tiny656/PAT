@@ -567,3 +567,5 @@
 | L2-012 | 关于堆的判断 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-012_关于堆的判断.cpp) |
 | L2-014 | 列车调度 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-014_列车调度.cpp)[`Go`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-014_列车调度.go) |
 | L2-015 | 互评成绩 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-015_互评成绩.cpp) |
+| L2-017 | 人以群分 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-017_人以群分.cpp) |
+| L2-026 | 小字辈 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-026_小字辈.cpp) |
