@@ -570,5 +570,8 @@
 | L2-015 | 互评成绩 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-015_互评成绩.cpp) |
 | L2-016 | 愿天下有情人都是失散多年的兄妹 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-016_愿天下有情人都是失散多年的兄妹.cpp) |
 | L2-017 | 人以群分 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-017_人以群分.cpp) |
+| L2-018 | 多项式A除以B | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-018_多项式A除以B.cpp) |
+| L2-019 | 悄悄关注 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-019_悄悄关注.cpp) |
+| L2-020 | 功夫传人 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-020_功夫传人.cpp) |
 | L2-026 | 小字辈 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-026_小字辈.cpp) |
 | L2-035 | 完全二叉树的层序遍历 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-035_完全二叉树的层序遍历.cpp) |
