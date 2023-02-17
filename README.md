@@ -580,4 +580,5 @@
 | L2-025 | 分而治之 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-025_分而治之.cpp) |
 | L2-026 | 小字辈 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-026_小字辈.cpp) |
 | L2-027 | 名人堂与代金券 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-027_名人堂与代金券.cpp) |
+| L2-029 | 特立独行的幸福 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-029_特立独行的幸福.cpp) |
 | L2-035 | 完全二叉树的层序遍历 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-035_完全二叉树的层序遍历.cpp) |
