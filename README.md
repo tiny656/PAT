@@ -224,6 +224,8 @@
 | 1167 | Cartesian Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1167_Cartesian%20Tree%20(30).cpp) |
 | 1168 | Prime Day (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1168_Prime%20Day%20(20).py) |
 | 1169 | The Judger (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1169_The%20Judger%20(25).cpp) |
+| 1170 | Safari Park (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1170_Safari%20Park%20(25).cpp) |
+| 1171 | Replacement Selection (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1171_Replacement%20Selection%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
