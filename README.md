@@ -222,6 +222,8 @@
 | 1165 | Block Reversing (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1165_Block%20Reversing%20(25).cpp) |
 | 1166 | Summit (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1166_Summit%20(25).cpp) |
 | 1167 | Cartesian Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1167_Cartesian%20Tree%20(30).cpp) |
+| 1168 | Prime Day (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1168_Prime%20Day%20(20).py) |
+| 1169 | The Judger (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1169_The%20Judger%20(25).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -335,6 +337,11 @@
 | 1108 | String复读机 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1108_String复读机%20(20).py) |
 | 1109 | 擅长C (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1109_擅长C%20(20).py) |
 | 1110 | 区块反转 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1110_区块反转%20(25).cpp) |
+| 1111 | 对称日 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1111_对称日%20(15).py) |
+| 1112 | 超标区间 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1112_超标区间%20(20).py) |
+| 1113 | 钱串子的加法 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1113_钱串子的加法%20(20).py) |
+| 1114 | 全素日 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1114_全素日%20(20).py) |
+| 1115 | 裁判机 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1115_裁判机%20(25).cpp) |
 # 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -581,4 +588,5 @@
 | L2-026 | 小字辈 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-026_小字辈.cpp) |
 | L2-027 | 名人堂与代金券 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-027_名人堂与代金券.cpp) |
 | L2-029 | 特立独行的幸福 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-029_特立独行的幸福.cpp) |
+| L2-033 | 简单计算器 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-033_简单计算器.cpp) |
 | L2-035 | 完全二叉树的层序遍历 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-035_完全二叉树的层序遍历.cpp) |
