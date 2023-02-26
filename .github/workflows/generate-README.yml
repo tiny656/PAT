@@ -1,4 +1,4 @@
-name: GenerateREADME
+name: Generate README
 on: 
   push:
     branches:
@@ -12,10 +12,9 @@ jobs:
       run: git clone https://github.com/tiny656/PAT.git .
         
     - name: Setup python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-        architecture: 'x64'
         
     - name: Generate README
       run: python GenerateREADME.py
