@@ -564,6 +564,14 @@
 | L1-086 | 斯德哥尔摩火车上的题 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-086_斯德哥尔摩火车上的题.py) |
 | L1-087 | 机工士姆斯塔迪奥 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-087_机工士姆斯塔迪奥.py) |
 | L1-088 | 静静的推荐 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-088_静静的推荐.py) |
+| L1-089 | 最好的文档 | [`Go`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-089_最好的文档.go) |
+| L1-090 | 什么是机器学习 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-090_什么是机器学习.py) |
+| L1-091 | 程序员买包子 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-091_程序员买包子.py) |
+| L1-092 | 进化论 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-092_进化论.py) |
+| L1-093 | 猜帽子游戏 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-093_猜帽子游戏.py) |
+| L1-094 | 剪切粘贴 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-094_剪切粘贴.py) |
+| L1-095 | 分寝室 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-095_分寝室.py) |
+| L1-096 | 谁管谁叫爹 | [`Python`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L1-096_谁管谁叫爹.py) |
 | L2-001 | 紧急救援 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-001_紧急救援.cpp) |
 | L2-002 | 链表去重 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-002_链表去重.cpp) |
 | L2-003 | 月饼 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-003_月饼.cpp) |
@@ -591,6 +599,7 @@
 | L2-025 | 分而治之 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-025_分而治之.cpp) |
 | L2-026 | 小字辈 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-026_小字辈.cpp) |
 | L2-027 | 名人堂与代金券 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-027_名人堂与代金券.cpp) |
+| L2-028 | 秀恩爱分得快 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-028_秀恩爱分得快.cpp) |
 | L2-029 | 特立独行的幸福 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-029_特立独行的幸福.cpp) |
 | L2-033 | 简单计算器 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-033_简单计算器.cpp) |
 | L2-035 | 完全二叉树的层序遍历 | [`C++`](https://github.com/tiny656/PAT/blob/master/团体程序设计天梯赛-练习集/L2-035_完全二叉树的层序遍历.cpp) |
