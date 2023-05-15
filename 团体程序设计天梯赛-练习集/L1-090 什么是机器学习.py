@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+print(a+b-16)
+print(a+b-3)
+print(a+b-1)
+print(a+b)
