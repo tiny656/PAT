@@ -228,6 +228,10 @@
 | 1169 | The Judger (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1169_The%20Judger%20(25).cpp) |
 | 1170 | Safari Park (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1170_Safari%20Park%20(25).cpp) |
 | 1171 | Replacement Selection (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1171_Replacement%20Selection%20(30).cpp) |
+| 1172 | Panda and PP Milk (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1172_Panda%20and%20PP%20Milk%20(20).py) |
+| 1173 | How Many Ways to Buy a Piece of Land (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1173_How%20Many%20Ways%20to%20Buy%20a%20Piece%20of%20Land%20(25).cpp) |
+| 1174 | Left-View of Binary Tree (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1174_Left-View%20of%20Binary%20Tree%20(25).cpp) |
+| 1175 | Professional Ability Test (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1175_Professional%20Ability%20Test%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -346,6 +350,11 @@
 | 1113 | 钱串子的加法 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1113_钱串子的加法%20(20).py) |
 | 1114 | 全素日 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1114_全素日%20(20).py) |
 | 1115 | 裁判机 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1115_裁判机%20(25).cpp) |
+| 1116 | 多二了一点 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1116_多二了一点%20(15).py) |
+| 1117 | 数字之王 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1117_数字之王%20(20).py) |
+| 1118 | 如需挪车请致电 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1118_如需挪车请致电%20(20).py) |
+| 1119 | 胖达与盆盆奶 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1119_胖达与盆盆奶%20(20).py) |
+| 1120 | 买地攻略 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1120_买地攻略%20(25).cpp) |
 # 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
