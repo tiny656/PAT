@@ -232,6 +232,10 @@
 | 1173 | How Many Ways to Buy a Piece of Land (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1173_How%20Many%20Ways%20to%20Buy%20a%20Piece%20of%20Land%20(25).cpp) |
 | 1174 | Left-View of Binary Tree (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1174_Left-View%20of%20Binary%20Tree%20(25).cpp) |
 | 1175 | Professional Ability Test (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1175_Professional%20Ability%20Test%20(30).cpp) |
+| 1176 | The Closest Fibonacci Number (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1176_The%20Closest%20Fibonacci%20Number%20(25).py) |
+| 1177 | Subsequence in Substring (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1177_Subsequence%20in%20Substring%20(25).cpp) |
+| 1178 | File Path (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1178_File%20Path%20(25).cpp)[`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1178_File%20Path%20(25).py) |
+| 1179 | Chemical Equation (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Advanced%20Level)%20Practice/1179_Chemical%20Equation%20(30).cpp) |
 # Basic-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
@@ -355,6 +359,11 @@
 | 1118 | 如需挪车请致电 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1118_如需挪车请致电%20(20).py) |
 | 1119 | 胖达与盆盆奶 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1119_胖达与盆盆奶%20(20).py) |
 | 1120 | 买地攻略 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1120_买地攻略%20(25).cpp) |
+| 1121 | 祖传好运 (15) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1121_祖传好运%20(15).py) |
+| 1122 | 找奇葩 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1122_找奇葩%20(20).py) |
+| 1123 | 舍入 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1123_舍入%20(20).py) |
+| 1124 | 最近的斐波那契数 (20) | [`Python`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1124_最近的斐波那契数%20(20).py) |
+| 1125 | 子串与子列 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Basic%20Level)%20Practice%20（中文）/1125_子串与子列%20(25).cpp) |
 # 中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题
 | ID | Title | Code |
 | :--: | :--: | :--: |
