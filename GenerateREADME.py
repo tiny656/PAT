@@ -34,6 +34,11 @@ codeRules = [
         'url': '',
     },
     {
+        'name': u'Data Structures and Algorithms (English)',
+        'folderName': u'Data Structures and Algorithms (English)',
+        'url': '',
+    },
+    {
         'name': u'团体程序设计天梯赛-练习集',
         'folderName': u'团体程序设计天梯赛-练习集',
         'url': '',
@@ -59,6 +64,7 @@ preContent = u'''
 - [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
 - [基础编程题目集](#基础编程题目集)
 - [数据结构与算法题目集(中文)](#数据结构与算法题目集中文)
+- [Data Structures and Algorithms (English)](#data-structures-and-algorithms-english)
 - [团体程序设计天梯赛-练习集](#团体程序设计天梯赛-练习集)
 
 '''
