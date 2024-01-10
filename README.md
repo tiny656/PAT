@@ -17,6 +17,7 @@
 - [中国大学MOOC-陈越、何钦铭-数据结构-起步能力自测题](#中国大学mooc-陈越何钦铭-数据结构-起步能力自测题)
 - [基础编程题目集](#基础编程题目集)
 - [数据结构与算法题目集(中文)](#数据结构与算法题目集中文)
+- [Data Structures and Algorithms (English)](#data-structures-and-algorithms-english)
 - [团体程序设计天梯赛-练习集](#团体程序设计天梯赛-练习集)
 
 # Top-Level
@@ -491,6 +492,17 @@
 | 7-51 | 两个有序链表序列的合并 (20) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-51_两个有序链表序列的合并%20(20).cpp) |
 | 7-52 | 两个有序链表序列的交集 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-52_两个有序链表序列的交集%20(25).cpp) |
 | 7-53 | 两个有序序列的中位数 (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/数据结构与算法题目集（中文）/7-53_两个有序序列的中位数%20(25).cpp) |
+# Data Structures and Algorithms (English)
+| ID | Title | Code |
+| :--: | :--: | :--: |
+| 6-1 | Deque (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-1_Deque%20(25).c) |
+| 6-2 | Two Stacks In One Array (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-2_Two%20Stacks%20In%20One%20Array%20(20).c) |
+| 6-3 | Add Two Polynomials (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-3_Add%20Two%20Polynomials%20(20).c) |
+| 6-4 | Reverse Linked List (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-4_Reverse%20Linked%20List%20(20).c) |
+| 6-7 | Isomorphic (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-7_Isomorphic%20(20).c) |
+| 6-8 | Percolate Up and Down (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-8_Percolate%20Up%20and%20Down%20(20).c) |
+| 6-9 | Sort Three Distinct Keys (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-9_Sort%20Three%20Distinct%20Keys%20(20).c) |
+| 6-14 | Count Connected Components (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-14_Count%20Connected%20Components%20(20).c) |
 # 团体程序设计天梯赛-练习集
 | ID | Title | Code |
 | :--: | :--: | :--: |
