@@ -499,10 +499,19 @@
 | 6-2 | Two Stacks In One Array (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-2_Two%20Stacks%20In%20One%20Array%20(20).c) |
 | 6-3 | Add Two Polynomials (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-3_Add%20Two%20Polynomials%20(20).c) |
 | 6-4 | Reverse Linked List (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-4_Reverse%20Linked%20List%20(20).c) |
+| 6-5 | Evaluate Postfix Expression (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-5_Evaluate%20Postfix%20Expression%20(25).c) |
+| 6-6 | Level-order Traversal (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-6_Level-order%20Traversal%20(25).c) |
 | 6-7 | Isomorphic (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-7_Isomorphic%20(20).c) |
 | 6-8 | Percolate Up and Down (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-8_Percolate%20Up%20and%20Down%20(20).c) |
 | 6-9 | Sort Three Distinct Keys (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-9_Sort%20Three%20Distinct%20Keys%20(20).c) |
+| 6-10 | Strongly Connected Components (30) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-10_Strongly%20Connected%20Components%20(30).c) |
+| 6-11 | Shortest Path [1] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-11_Shortest%20Path%20[1]%20(25).c) |
+| 6-12 | Shortest Path [2] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-12_Shortest%20Path%20[2]%20(25).c) |
+| 6-13 | Topological Sort (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-13_Topological%20Sort%20(25).c) |
 | 6-14 | Count Connected Components (20) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-14_Count%20Connected%20Components%20(20).c) |
+| 6-15 | Iterative Mergesort (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-15_Iterative%20Mergesort%20(25).c) |
+| 6-16 | Shortest Path [3] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-16_Shortest%20Path%20[3]%20(25).c) |
+| 6-17 | Shortest Path [4] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-17_Shortest%20Path%20[4]%20(25).c) |
 # 团体程序设计天梯赛-练习集
 | ID | Title | Code |
 | :--: | :--: | :--: |
