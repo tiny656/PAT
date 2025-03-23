@@ -55,6 +55,7 @@
 | 1030 | Beautiful Subsequence (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practice/1030_Beautiful%20Subsequence%20(35).cpp) |
 | 1032 | Fighting the Monsters (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practice/1032_Fighting%20the%20Monsters%20(35).cpp) |
 | 1033 | Strings of Red and Blue (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practice/1033_Strings%20of%20Red%20and%20Blue%20(35).cpp) |
+| 1134 | Number Game (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/PAT%20(Top%20Level)%20Practice/1134_Number%20Game%20(35).cpp) |
 # Advance-Level
 | ID | Title | Code |
 | :--: | :--: | :--: |
