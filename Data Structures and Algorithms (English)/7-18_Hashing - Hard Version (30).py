@@ -20,6 +20,9 @@ def reconstruct(seq, n):
             j = (j + 1) % n
         indeg.setdefault(x, 0)  # ensure present even if 0
 
+    print(adj)
+    print(indeg)
+
     # topo sort, smallest first
     heap = [k for k in keys if indeg.get(k, 0) == 0]
     heapq.heapify(heap)
@@ -40,12 +43,15 @@ table = list(map(int, input().split()))
 print(" ".join(map(str, reconstruct(table, n))))
 
 """
-adj: {
-    12: {1, 13},
-    34: {1, 12, 13},
-    27: {38},
-    22: {33, 34, 1, 38, 12, 13, 27},
-    32: {33, 1, 34, 38, 12, 13, 21, 22, 27}
-}
-indeg: {33: 0, 1: 0, 13: 0, 12: 2, 34: 3, 38: 0, 27: 1, 22: 7, 32: 9, 21: 0}
+{
+1: {32, 34, 12, 22},
+13: {32, 34, 12, 22},
+12: {32, 34, 22},
+38: {32, 27, 22},
+33: {32, 22},
+34: {32, 22},
+27: {32, 22},
+21: {32},
+22: {32}}
+{33: 0, 1: 0, 13: 0, 12: 2, 34: 3, 38: 0, 27: 1, 22: 7, 32: 9, 21: 0}
 """
