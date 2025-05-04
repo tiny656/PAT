@@ -20,9 +20,6 @@ def reconstruct(seq, n):
             j = (j + 1) % n
         indeg.setdefault(x, 0)  # ensure present even if 0
 
-    print(adj)
-    print(indeg)
-
     # topo sort, smallest first
     heap = [k for k in keys if indeg.get(k, 0) == 0]
     heapq.heapify(heap)
