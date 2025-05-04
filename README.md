@@ -514,6 +514,24 @@
 | 6-15 | Iterative Mergesort (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-15_Iterative%20Mergesort%20(25).c) |
 | 6-16 | Shortest Path [3] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-16_Shortest%20Path%20[3]%20(25).c) |
 | 6-17 | Shortest Path [4] (25) | [`C`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/6-17_Shortest%20Path%20[4]%20(25).c) |
+| 7-1 | Maximum Subsequence Sum (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-1_Maximum%20Subsequence%20Sum%20(25).py) |
+| 7-2 | Reversing Linked List (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-2_Reversing%20Linked%20List%20(25).cpp) |
+| 7-3 | Pop Sequence (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-3_Pop%20Sequence%20(25).cpp) |
+| 7-4 | List Leaves (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-4_List%20Leaves%20(25).py) |
+| 7-5 | Tree Traversals Again (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-5_Tree%20Traversals%20Again%20(25).cpp) |
+| 7-6 | Root of AVL Tree (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-6_Root%20of%20AVL%20Tree%20(25).cpp) |
+| 7-7 | Complete Binary Search Tree (30) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-7_Complete%20Binary%20Search%20Tree%20(30).cpp) |
+| 7-8 | File Transfer (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-8_File%20Transfer%20(25).py) |
+| 7-9 | Huffman Codes (30) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-9_Huffman%20Codes%20(30).py) |
+| 7-10 | Saving James Bond - Easy Version (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-10_Saving%20James%20Bond%20-%20Easy%20Version%20(25).py) |
+| 7-12 | How Long Does It Take (25) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-12_How%20Long%20Does%20It%20Take%20(25).py) |
+| 7-13 | Insert or Merge (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-13_Insert%20or%20Merge%20(25).cpp) |
+| 7-14 | Insertion or Heap Sort (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-14_Insertion%20or%20Heap%20Sort%20(25).cpp) |
+| 7-15 | PAT Judge (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-15_PAT%20Judge%20(25).cpp) |
+| 7-16 | Sort with Swap(0, i) (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-16_Sort%20with%20Swap(0,%20i)%20(25).cpp) |
+| 7-17 | Hashing (25) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-17_Hashing%20(25).cpp) |
+| 7-18 | Hashing - Hard Version (30) | [`Python`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-18_Hashing%20-%20Hard%20Version%20(30).py) |
+| 7-19 | Battle Over Cities - Hard Version (35) | [`C++`](https://github.com/tiny656/PAT/blob/master/Data%20Structures%20and%20Algorithms%20(English)/7-19_Battle%20Over%20Cities%20-%20Hard%20Version%20(35).cpp) |
 # 团体程序设计天梯赛-练习集
 | ID | Title | Code |
 | :--: | :--: | :--: |
